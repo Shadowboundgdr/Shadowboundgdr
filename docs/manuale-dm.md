@@ -48,7 +48,7 @@ Il Dungeon Master (DM) ha diversi ruoli cruciali:
 - Pianifica possibili percorsi alternativi
 
 #### 2. Prepara i Materiali
-- Statistiche dei mostri
+- Statistiche dei mostri (con il sistema originale)
 - Mappe (se necessarie)
 - Descrizioni dei luoghi
 - Dialoghi degli NPC importanti
@@ -294,7 +294,7 @@ Dai ai mostri abilità che li rendono unici:
 - **CR**: 1/2
 - **HP**: 22
 - **AC**: 13
-- **Attacco**: Strength Drain
+- **Attacco**: Tocco dell'Ombra (2d6 necrotici)
 - **Resistenza**: Danninon magici
 - **Vulnerabilità**: Luce
 
@@ -302,17 +302,17 @@ Dai ai mostri abilità che li rendono unici:
 - **CR**: 1
 - **HP**: 22
 - **AC**: 12
-- **Attacco**: Draining Touch
+- **Attacco**: Tocco Drenante (4d8 necrotici)
 - **Resistenza**: Danninon magici, acido, freddo
 - **Immunità**: Veleno, necrotico
 
 #### Cavaliere della Morte (Death Knight)
-- **CR**: 17
-- **HP**: 180
-- **AC**: 20
-- **Attacchi**: Multiattack, Hellfire Orb, Power Word Kill
-- **Resistenza**: Danninon magici
-- **Immunità**: Veleno, necrotico
+- **CR**: TBD (boss di alto livello)
+- **HP**: TBD
+- **AC**: TBD
+- **Attacchi**: TBD
+- **Resistenza**: TBD
+- **Immunità**: TBD
 
 ---
 
@@ -368,7 +368,7 @@ In Umbra, il tesoro può includere:
 
 - **Artefatti dell'Ombra**: Oggetti con poteri oscuri
 - **Reliquie Antiche**: Oggetti di civiltà perdute
-- **Cristalli di Potere**: Fonti di magia pura
+- **Cristalli di Potere**: Fonti di PM extra
 - **Rune di Protezione**: Talismani contro le ombre
 
 ---
@@ -388,15 +388,15 @@ Un NPC memorabile dovrebbe avere:
 
 #### Marta, Locandiera
 - **Personalità**: Accogliente ma cauta, occhi saggi
-- **Motivazione**: Proteggere il villaggio
-- **Segreto**: Ha visto cosa c'è sotto il villaggio
+- **Motivazioni**: Proteggere il villaggio
+- **Segreti**: Ha visto cosa c'è sotto il villaggio
 - **Connessioni**: Conosce tutti nel villaggio
 
 #### Sindaco Eldrin
 - **Personalità**: Preoccupato, nasconde la sua paura
-- **Motivazione**: Mantenere l'ordine
-- **Segreto**: Sa del tempio sotto il villaggio
-- **Connessioni**: Autorità locale, contatti con fazioni
+- **Motivazioni**: Mantenere l'ordine
+- **Segreti**: Sa del tempio sotto il villaggio
+- **Connessioni**: Autorità locale
 
 ---
 
@@ -448,9 +448,9 @@ Il mondo non è statico:
 
 ### Libri di Riferimento
 
-- **Manuale del Giocatore**: Per regole complete
+- **Sistema di Gioco**: Per regole complete
 - **Ambientazione**: Per dettagli sul mondo
-- **Bestiario**: Per mostri pre-fatti
+- **Manuale del Giocatore**: Per regole dei PG
 
 ### Tool Online
 
@@ -466,14 +466,69 @@ Il mondo non è statico:
 
 ---
 
+## 🔧 Regole Specifiche di Shadowbound
+
+### Gestione dei Punti Ombra (PO)
+
+Come DM, gestisci i PO dei giocatori:
+
+- **Assegnazione**: I giocatori guadagnano PO per azioni eroiche o contatti con le ombre
+- **Uso**: I giocatori spendono PO per vantaggi o poteri
+- **Recupero**: I PO si recuperano durante i riposi
+- **Corruzione**: L'uso eccessivo di PO può causare corruzione
+
+### Gestione della Corruzione
+
+La corruzione è un elemento chiave di Shadowbound:
+
+- **Esposizione**: I giocatori possono guadagnare corruzione esponendosi alle ombre
+- **Effetti**: La corruzione riduce gli attributi e può portare al possesso
+- **Purificazione**: La purificazione richiede rituali specifici
+- **Narrativa**: Usa la corruzione per creare tensione drammatica
+
+### Gestione della Magia
+
+Il sistema di PM è diverso dagli slot:
+
+- **Risorsa Limitata**: I PM sono limitati e si recuperano lentamente
+- **Strategia**: I giocatori devono pianificare l'uso degli incantesimi
+- **Tensione**: Quando i PM finiscono, i giocatori sono più vulnerabili
+
+---
+
+## 🎨 Atmosfera e Tono
+
+### Creare Tensione
+
+- **Usa il silenzio**: A volte, ciò che non dici è più spaventoso
+- **Descrivi le ombre**: Le ombre in Umbra sono vive e senzienti
+- **Sii misterioso**: Non rivelare tutto subito
+
+### Mantenere il Tono
+
+- **Dark Fantasy**: Non horror gratuito
+- **Maturo**: Temi complessi e conseguenze reali
+- **Melancolico**: Un mondo in declino, ma non senza speranza
+
+### Morale Grigia
+
+- Non ci sono "buoni" o "cattivi" assoluti
+- Ogni fazione ha ragioni valide
+- I giocatori devono decidere cosa è giusto per loro
+
+---
+
+## 📞 Contatto
+
+Per domande e feedback:
+
+- **GitHub Issues**: Usa i template appropriati
+- **GitHub Discussions**: Per discussioni generali
+- **Discord**: (coming soon)
+
+---
+
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su Dungeons & Dragons 5.2.1 System Reference Document di Wizards of the Coast*
-*Modificato da alisio85 e la Shadowbound community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*
-
-**Attribuzione SRD Originale**:
-> Dungeons & Dragons, D&D, their respective logos, and all Wizards titles and 
-> characters are property of Wizards of the Coast LLC in the U.S.A. and other 
-> countries. © 2025 Wizards. The System Reference Document 5.2.1 is licensed 
-> under the Creative Commons Attribution 4.0 International License.

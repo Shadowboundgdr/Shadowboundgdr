@@ -41,6 +41,10 @@
 | **Punti Ferita (PF) Massimi** | 10 + COS | 12 |
 | **PF Attuali** | | 12 |
 | **PF Temporanei** | | 0 |
+| **Punti Magia (PM) Massimi** | 5 + SAG | 8 |
+| **PM Attuali** | | 8 |
+| **Punti Ombra (PO) Massimi** | 5 + CAR | 6 |
+| **PO Attuali** | | 6 |
 | **Velocità** | 9 m | 9 m |
 | **Iniziativa** | DES | +3 |
 | **Bonus Attacco Corpo a Corpo** | DES + competenza | +5 |
@@ -113,12 +117,11 @@
 
 ## ✨ Magia
 
-### Slot di Incantesimi
+### Punti Magia (PM)
 
-| Livello | Slot Totali | Slot Usati |
-|--------|-------------|------------|
-| Cantrips | ∞ | 0 |
-| 1° | 2 | 0 |
+**PM Massimi**: 8
+**PM Attuali**: 8
+**Costo Incantesimi**: Cantrips 0, 1° livello 2 PM
 
 ### Incantesimi Conosciuti
 
@@ -136,6 +139,10 @@
 
 ### Bonus Attacco Incantesimi
 **Bonus**: SAG + competenza = +5
+
+### Recupero PM
+- Riposo breve: 1/4 PM massimi (2 PM)
+- Riposo lungo: Tutti i PM
 
 ---
 
@@ -208,16 +215,16 @@
 
 ## ⚔️ Abilità di Classe (Ranger Livello 1)
 
-### Favored Enemy: Non-Morti
+### Nemico Favorito: Non-Morti
 - Vantaggio ai tiri di Survival per tracciare non-morti
 - Vantaggio ai tiri di Intelligence per ricordare informazioni su non-morti
 
-### Natural Explorer: Forest
+### Esploratore Naturale: Forest
 - Vantaggio ai tiri di Initiative in foreste
 - Può muoversi attraverso terreno difficile senza penalità
 - Vantaggio ai tiri di Perception in foreste
 
-### Ranger Archetype: Gloom Stalker
+### Archetipo Ranger: Gloom Stalker
 - **Umbral Sight**: Visione nel buio 18 m (già incluso)
 - **Dread Ambusher**: Al primo turno di combattimento, vantaggio ai tiri di attacco
 
@@ -279,17 +286,14 @@ Ha sentito voci di strani eventi a Bruma e ha deciso di investigare, sperando di
 
 ---
 
-## 🏹 Tattiche di Combattimento
+## � Ombre
 
-1. **Distanza**: Mantieni la distanza con l'arco lungo
-2. **Hunter's Mark**: Marca il nemico più pericoloso
-3. **Stealth**: Usa la tua alta DES per nasconderti
-4. **Perception**: Usa la tua alta SAG per trovare nemici nascosti
-5. **Supporto**: Puoi anche guarire con *Cure Wounds* se necessario
+**Punti Ombra (PO)**: 6
+**Poteri Ombra**: Passo nell'Ombra (3 PO), Parola d'Ombra (2 PO)
 
 ---
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su D&D 5.2.1 SRD, modificato da alisio85 e la community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*

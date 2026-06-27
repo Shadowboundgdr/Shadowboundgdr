@@ -37,10 +37,13 @@
 
 | Valore | Calcolo | Totale |
 |--------|---------|--------|
-| **Classe Armatura (AC)** | 10 + DES (max 2) + armatura + scudo | 16 |
+| **Classe Armatura (AC)** | 10 + DES + armatura + scudo | 16 |
 | **Punti Ferita (PF) Massimi** | 10 + COS | 12 |
 | **PF Attuali** | | 12 |
 | **PF Temporanei** | | 0 |
+| **Punti Magia (PM) Massimi** | 0 | 0 |
+| **Punti Ombra (PO) Massimi** | 5 + CAR | 4 |
+| **PO Attuali** | | 4 |
 | **Velocità** | 9 m | 9 m |
 | **Iniziativa** | DES | +2 |
 | **Bonus Attacco Corpo a Corpo** | FOR + competenza | +5 |
@@ -119,7 +122,12 @@
 
 ## ✨ Magia
 
-Nessuna magia (Guerriero livello 1)
+Nessuna magia (Guerriero non usa PM)
+
+## 🌑 Ombre
+
+**Punti Ombra (PO)**: 4
+**Poteri Ombra**: Nessuno (guerriero non ha poteri ombra base)
 
 ---
 
@@ -189,11 +197,14 @@ Nessuna magia (Guerriero livello 1)
 
 ## ⚔️ Abilità di Classe (Guerriero Livello 1)
 
-### Fighting Style: Defense
+### Stile di Combattimento: Difesa
 +1 AC mentre indosso armatura
 
-### Second Wind
+### Secondo Fiato
 Come bonus action, recupera 1d10+2 PF (una volta per riposo breve)
+
+### Azione Eroe
+Azione aggiuntiva una volta per riposo breve
 
 ---
 
@@ -252,5 +263,5 @@ Ora è un mercenario che cerca redenzione proteggendo chi non può difendersi. H
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su D&D 5.2.1 SRD, modificato da alisio85 e la community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*

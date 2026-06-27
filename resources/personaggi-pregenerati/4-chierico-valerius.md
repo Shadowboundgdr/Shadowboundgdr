@@ -41,6 +41,10 @@
 | **Punti Ferita (PF) Massimi** | 8 + COS | 11 |
 | **PF Attuali** | | 11 |
 | **PF Temporanei** | | 0 |
+| **Punti Magia (PM) Massimi** | 8 + SAG | 11 |
+| **PM Attuali** | | 11 |
+| **Punti Ombra (PO) Massimi** | 5 + CAR | 6 |
+| **PO Attuali** | | 6 |
 | **Velocità** | 7,5 m | 7,5 m |
 | **Iniziativa** | DES | -1 |
 | **Bonus Attacco Corpo a Corpo** | FOR + competenza | +4 |
@@ -119,12 +123,11 @@
 
 ## ✨ Magia
 
-### Slot di Incantesimi
+### Punti Magia (PM)
 
-| Livello | Slot Totali | Slot Usati |
-|--------|-------------|------------|
-| Cantrips | ∞ | 0 |
-| 1° | 2 | 0 |
+**PM Massimi**: 11
+**PM Attuali**: 11
+**Costo Incantesimi**: Cantrips 0, 1° livello 2 PM
 
 ### Incantesimi Conosciuti
 
@@ -142,6 +145,10 @@
 
 ### Bonus Attacco Incantesimi
 **Bonus**: SAG + competenza = +5
+
+### Recupero PM
+- Riposo breve: 1/4 PM massimi (2 PM)
+- Riposo lungo: Tutti i PM
 
 ---
 
@@ -214,15 +221,15 @@
 
 ## ⚔️ Abilità di Classe (Chierico Livello 1)
 
-### Divine Domain: Life
-- **Bonus Proficiency**: Armatura pesante (non usata al livello 1)
-- **Disciple of Life**: Quando lanci Cure Wounds su un PG a 0 PF, il PG torna a 1 PF invece
+### Dominio Divino: Vita
+- Bonus Proficiency: Armatura pesante (non usata al livello 1)
+- Disciple of Life: Quando lanci Cure Wounds su un PG a 0 PF, il PG torna a 1 PF invece
 
-### Channel Divinity (1/riposo breve)
+### Canale Divino (1/riposo breve)
 - **Turn Undead**: Le creature non-morti entro 9 m devono fare DC 13 Wisdom save o fuggono per 1 minuto
 
-### Spellcasting
-Può lanciare incantesimi da slot
+### Lancio Incantesimi
+Può lanciare incantesimi spendendo PM
 
 ---
 
@@ -282,15 +289,14 @@ Ha deciso di partire in pellegrinaggio per testare la sua fede nel mondo esterno
 
 ---
 
-## 🙏 Channel Divinity: Turn Undead
+## 🌑 Ombre
 
-**Uso**: Come azione, una volta per riposo breve
-
-**Effetto**: Le creature non-morti entro 9 m devono fare un DC 13 Wisdom save. Se falliscono, fuggono da te per 1 minuto o finché non subiscono danni.
+**Punti Ombra (PO)**: 6
+**Poteri Ombra**: Parola d'Ombra (2 PO)
 
 ---
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su D&D 5.2.1 SRD, modificato da alisio85 e la community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*

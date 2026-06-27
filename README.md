@@ -2,9 +2,9 @@
 
 ![Shadowbound Logo](docs/logo.png)
 
-**Regolamento Dark Fantasy Open Source basato su D&D 5.5 SRD**
+**Regolamento Dark Fantasy Open Source**
 
-Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open source e gestito dalla community. Basato sul System Reference Document 5.2.1 di Dungeons & Dragons (licenza Creative Commons Attribution 4.0 International), Shadowbound porta il regolamento in direzioni ancor più oscure e mature.
+Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open source e gestito dalla community. Con un sistema di gioco originale e innovativo, Shadowbound porta il dark fantasy in direzioni ancor più oscure e mature.
 
 ---
 
@@ -23,7 +23,7 @@ Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open sour
 - **Dark Fantasy Puro**: Un'ambientazione matura, oscura e coinvolgente
 - **Open Source**: Tutto il materiale è sotto licenza Creative Commons Attribution 4.0
 - **Community Driven**: Sviluppato e gestito dalla community italiana di GdR
-- **Modulare**: Sistema flessibile basato su D&D 5.5 SRD
+- **Sistema Originale**: Regolamento unico e innovativo
 - **Italiano**: Tutto il materiale è in italiano
 
 ---
@@ -32,22 +32,16 @@ Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open sour
 
 Questo progetto è sotto licenza **Creative Commons Attribution 4.0 International (CC-BY-4.0)**.
 
-Il regolamento base è derivato dal **Dungeons & Dragons 5.2.1 System Reference Document** di Wizards of the Coast, anch'esso sotto licenza CC-BY-4.0.
-
 ### Attribuzione Obbligatoria
 
 Quando usi o modifichi Shadowbound, devi:
 
-1. Mantenere l'attribuzione a Wizards of the Coast per il materiale SRD originale
-2. Mantenere l'attribuzione al progetto Shadowbound per le modifiche
-3. Indicare se sono state fatte modifiche al materiale originale
-4. Includere un link alla licenza CC-BY-4.0
-
-**Attribuzione SRD Originale:**
-> Dungeons & Dragons, D&D, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast LLC in the U.S.A. and other countries. © 2025 Wizards. The System Reference Document 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License.
+1. Mantenere l'attribuzione al progetto Shadowbound
+2. Indicare se sono state fatte modifiche al materiale originale
+3. Includere un link alla licenza CC-BY-4.0
 
 **Attribuzione Shadowbound:**
-> Shadowbound è un derivato del D&D 5.2.1 SRD, modificato da alisio85 e la community. © 2025 alisio85. Licenziato sotto CC-BY-4.0.
+> Shadowbound - Regolamento Dark Fantasy Open Source. Creato da alisio85 e la community. © 2025 alisio85. Licenziato sotto CC-BY-4.0.
 
 ---
 
@@ -79,10 +73,9 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 
 ## 📚 Documentazione
 
-- [Manuale del Giocatore](docs/manuale-giocatore.md) - Regolamento completo per i giocatori
-- [Manuale del Dungeon Master](docs/manuale-dm.md) - Guida per chi narrare
-- [Ambientazione](docs/ambientazione.md) - Il mondo di Shadowbound
-- [Bestiario](docs/bestiario.md) - Mostri e creature
+- [Sistema di Gioco](docs/sistema-gioco.md) - Regolamento originale di Shadowbound
+- [Ambientazione](docs/ambientazione.md) - Il mondo di Umbra
+- [Guida Rapida](docs/guida-rapida.md) - Guida per nuovi giocatori
 - [Avventure](avventure/) - Moduli pronti all'uso
 
 ---
@@ -104,21 +97,17 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 ## 🎯 Roadmap
 
 - [x] Struttura base del progetto
-- [x] Scaricamento e analisi SRD 5.2.1
 - [x] Definizione nome e branding
-- [ ] Adattamento regolamento base
-- [ ] Creazione ambientazione dark fantasy
-- [ ] One-shot di playtest
-- [ ] Manuale del Giocatore completo
-- [ ] Manuale del DM completo
-- [ ] Bestiario base
+- [x] Creazione ambientazione dark fantasy
+- [x] One-shot di playtest
+- [ ] Sistema di gioco completo
+- [ ] Bestiario originale
 - [ ] Prima campagna completa
 
 ---
 
 ## 🙏 Riconoscimenti
 
-- **Wizards of the Coast** - Per il D&D 5.2.1 SRD sotto licenza CC-BY-4.0
 - **La Community Italiana di GdR** - Per il supporto e il feedback
 - **Tutti i contributori** - Che rendono questo progetto possibile
 

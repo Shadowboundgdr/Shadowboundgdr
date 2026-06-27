@@ -41,6 +41,9 @@
 | **Punti Ferita (PF) Massimi** | 8 + COS | 9 |
 | **PF Attuali** | | 9 |
 | **PF Temporanei** | | 0 |
+| **Punti Magia (PM) Massimi** | 0 | 0 |
+| **Punti Ombra (PO) Massimi** | 5 + CAR | 7 |
+| **PO Attuali** | | 7 |
 | **Velocità** | 9 m | 9 m |
 | **Iniziativa** | DES | +4 |
 | **Bonus Attacco Corpo a Corpo** | DES + competenza | +6 |
@@ -113,7 +116,12 @@
 
 ## ✨ Magia
 
-Nessuna magia (Ladro livello 1)
+Nessuna magia (Ladro non usa PM)
+
+## 🌑 Ombre
+
+**Punti Ombra (PO)**: 7
+**Poteri Ombra**: Passo nell'Ombra (3 PO), Maschera d'Ombra (3 PO)
 
 ---
 
@@ -185,14 +193,14 @@ Nessuna magia (Ladro livello 1)
 
 ## ⚔️ Abilità di Classe (Ladro Livello 1)
 
-### Sneak Attack
+### Attacco Furtivo
 Quando attacchi con vantaggio, aggiungi 2d6 danni extra
 
-### Thieves' Cant
+### Cant dei Ladri
 Linguaggio segreto dei ladri
 
-### Expertise
-Competenza in due skill (già incluso in background)
+### Evasione
+Puoi usare la reazione per ridurre i danni a metà
 
 ---
 
@@ -264,5 +272,5 @@ Ora viaggia per Umbra, cercando modi per liberare sua sorella e sconfiggere la G
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su D&D 5.2.1 SRD, modificato da alisio85 e la community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*

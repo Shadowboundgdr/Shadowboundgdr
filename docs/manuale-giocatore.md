@@ -14,12 +14,13 @@
 - [Combattimento](#combattimento)
 - [Magia](#magia)
 - [Equipaggiamento](#equipaggiamento)
+- [Progressione](#progressione)
 
 ---
 
 ## 🌑 Introduzione
 
-Shadowbound è un gioco di ruolo dark fantasy basato sul System Reference Document 5.2.1 di Dungeons & Dragons. In questo gioco, interpreterai un personaggio in un mondo perennemente avvolto in penombra, dove le ombre non sono semplici assenza di luce ma entità con vita propria.
+Shadowbound è un gioco di ruolo da tavolo dark fantasy con un sistema originale. In questo gioco, interpreterai un personaggio in un mondo perennemente avvolto in penombra, dove le ombre non sono semplici assenza di luce ma entità con vita propria.
 
 ### Cosa Serve per Giocare
 
@@ -47,24 +48,27 @@ Le razze di Umbra hanno adattamenti specifici per sopravvivere nel mondo perenne
 
 La classe determina le capacità del tuo personaggio e il suo ruolo nel gruppo.
 
-### Passo 3: Determina le Abilità
+### Passo 3: Determina gli Attributi
 
-Le sei abilità fondamentali sono:
+Gli attributi vanno da 8 a 18:
 
-- **Forza (FOR)**: Potenza fisica, atletica
-- **Destrezza (DES)**: Agilità, riflessi, equilibrio
-- **Costituzione (COS)**: Salute, resistenza
-- **Intelligenza (INT)**: Memoria, ragionamento logico
-- **Saggezza (SAG)**: Percezione, intuizione, volontà
-- **Carisma (CAR)**: Personalità, influenza
+- **FORZA (FOR)**: Potenza fisica, atletica
+- **DESTREZZA (DES)**: Agilità, riflessi, equilibrio
+- **COSTITUZIONE (COS)**: Salute, resistenza
+- **INTELLIGENZA (INT)**: Memoria, ragionamento logico
+- **SAGGEZZA (SAG)**: Percezione, intuizione, volontà
+- **CARISMA (CAR)**: Personalità, influenza
 
 ### Passo 4: Scegli un Background
 
 Il background definisce la storia del tuo personaggio prima dell'avventura.
 
-### Passo 5: Equipaggiamento Iniziale
+### Passo 5: Calcola i Valori Derivati
 
-Ogni classe e background fornisce equipaggiamento iniziale.
+- **PF**: 10 + modificatore COS
+- **AC**: 10 + modificatore DES
+- **PM**: 5 + modificatore INT (se mago)
+- **PO**: 5 + modificatore CAR
 
 ---
 
@@ -75,59 +79,53 @@ Ogni classe e background fornisce equipaggiamento iniziale.
 Gli umani sono la razza più diffusa su Umbra, adattabili e resilienti.
 
 **Tratti Razziali**:
-- **Bonus Abilità**: +1 a tutte le abilità a scelta
+- **Bonus Attributi**: +1 a tre attributi a scelta
 - **Velocità**: 9 metri
-- **Dimensione**: Media
-- **Visione**: Normale (ma adattata alla penombra)
-- **Competenze**: Una competenza a scelta
+- **Visione**: Normale (adattata alla penombra, 18 m)
+- **Competenze**: Una skill extra
 
 ### Elfi dell'Ombra
 
 Gli elfi dell'ombra hanno evoluto per vivere nelle terre più oscure.
 
 **Tratti Razziali**:
-- **Bonus Abilità**: +2 DES, +1 INT
+- **Bonus Attributi**: +2 DES, +1 INT
 - **Velocità**: 9 metri
-- **Dimensione**: Media
-- **Visione**: Visione nel Buio (18 metri)
-- **Sensibilità alla Luce**: Svantaggio ai tiri di attacco e Perception in luce solare diretta
-- **Magia dell'Ombra**: Può lanciare *dancing lights* e *darkness* una volta al giorno
+- **Visione**: Visione nel buio 24 m
+- **Resistenza Ombra**: Vantaggio ai tiri contro corruzione
+- **Magia dell'Ombra**: Può usare poteri ombra con costo ridotto
 
 ### Nani del Gelo
 
 I nani del nord hanno sviluppato resistenza al freddo estremo.
 
 **Tratti Razziali**:
-- **Bonus Abilità**: +2 COS, +2 FOR
+- **Bonus Attributi**: +2 COS, +2 FOR
 - **Velocità**: 7,5 metri
-- **Dimensione**: Media
-- **Visione**: Visione nel Buio (18 metri)
+- **Visione**: Visione nel buio 18 m
 - **Resistenza al Freddo**: Vantaggio ai save contro freddo
-- **Resilienza Nana**: Vantaggio ai save contro avvelenamento
-- **Competenze**: Competenza in martelli da guerra
+- **Resilienza**: Resistenza +2 alla corruzione
 
 ### Mezzelfi
 
 Figli di umani e elfi, ereditano tratti da entrambi i genitori.
 
 **Tratti Razziali**:
-- **Bonus Abilità**: +2 a un'abilità, +1 a un'altra
+- **Bonus Attributi**: +2 a un attributo, +1 a un altro
 - **Velocità**: 9 metri
-- **Dimensione**: Media
-- **Visione**: Visione nel Buio (18 metri)
-- **Versatilità**: Due competenze a scelta
+- **Visione**: Visione nel buio 18 m
+- **Versatilità**: Due skill extra
 
 ### Tiefling dell'Ombra
 
 Tiefling con sangue demoniaco legato alle ombre.
 
 **Tratti Razziali**:
-- **Bonus Abilità**: +1 INT, +2 CAR
+- **Bonus Attributi**: +1 INT, +2 CAR
 - **Velocità**: 9 metri
-- **Dimensione**: Media
-- **Visione**: Visione nel Buio (18 metri)
-- **Resistenza al Necrotico**: Vantaggio ai save contro danni necrotici
-- **Magia Infernale**: Può lanciare *thaumaturgy*, *hellish rebuke*, *darkness* (a livelli più alti)
+- **Visione**: Visione nel buio 18 m
+- **Resistenza Necrotica**: Vantaggio ai save contro danni necrotici
+- **Punti Ombra**: +2 PO massimi
 
 ---
 
@@ -137,114 +135,144 @@ Tiefling con sangue demoniaco legato alle ombre.
 
 Maestro del combattimento, eccelle in battaglia con armi e armature.
 
-**Dadi Vita**: d10
-
-**Competenze Armature**: Tutte le armature, scudi
-
-**Competenze Armi**: Armi semplici, armi marziali
+**PF Base**: 10 + COS
+**PM Base**: 0
+**PO Base**: 5 + CAR
 
 **Abilità Chiave**:
-- **Fighting Style**: Scegli uno stile di combattimento
-- **Second Wind**: Recupera PF una volta per riposo breve
-- **Action Surge**: Azione aggiuntiva una volta per riposo breve
+- **Stile di Combattimento**: Scegli uno stile (Difesa, Duello, Armi a Due Mani)
+- **Secondo Fiato**: Come bonus action, recupera 1d10 + COS PF (una volta per riposo breve)
+- **Azione Eroe**: Azione aggiuntiva una volta per riposo breve
+
+**Competenze**:
+- Armature: Tutte
+- Armi: Tutte
+- Skill: Atletica, Intimidazione
 
 ### Mago
 
 Maestro della magia arcana, può lanciare incantesimi potenti.
 
-**Dadi Vita**: d6
-
-**Competenze Armature**: Nessuna
-
-**Competenze Armi**: Daghe, bastoni, balestre leggere
+**PF Base**: 6 + COS
+**PM Base**: 10 + INT
+**PO Base**: 5 + CAR
 
 **Abilità Chiave**:
-- **Arcane Recovery**: Recupera slot incantesimi durante riposo breve
-- **Arcane Tradition**: Scegli una tradizione magica
-- **Spellcasting**: Può lanciare incantesimi da slot
+- **Recupero Arcano**: Durante riposo breve, recupera 1/4 PM massimi
+- **Tradizione Arcana**: Scegli una scuola di magia
+- **Lancio Incantesimi**: Può lanciare incantesimi spendendo PM
+
+**Competenze**:
+- Armature: Nessuna
+- Armi: Pugnale, bastone
+- Skill: Conoscenza Arcana, Storia
 
 ### Ladro
 
 Maestro dell'inganno e dell'agilità, eccelle nel furto e nell'esplorazione.
 
-**Dadi Vita**: d8
-
-**Competenze Armature**: Armature leggere
-
-**Competenze Armi**: Armi semplici, spade corte, balestre leggere, hand crossbow, rapiera, spada lunga
+**PF Base**: 8 + COS
+**PM Base**: 0
+**PO Base**: 8 + CAR
 
 **Abilità Chiave**:
-- **Sneak Attack**: Danni extra quando attacchi con vantaggio
-- **Thieves' Cant**: Linguaggio segreto dei ladri
-- **Uncanny Dodge**: Può usare la reazione per ridurre i danni
+- **Attacco Furtivo**: Quando attacchi con vantaggio, aggiungi 2d6 danni extra
+- **Cant dei Ladri**: Linguaggio segreto dei ladri
+- **Evasione**: Puoi usare la reazione per ridurre i danni a metà
+
+**Competenze**:
+- Armature: Leggere
+- Armi: Pugnale, spada corta, arco corto
+- Skill: Furtività, Acrobazia, Persuasione
 
 ### Chierico
 
 Canale del potere divino, può lanciare incantesimi e guarire.
 
-**Dadi Vita**: d8
-
-**Competenze Armature**: Armature leggere, medie, scudi
-
-**Competenze Armi**: Armi semplici
+**PF Base**: 8 + COS
+**PM Base**: 8 + SAG
+**PO Base**: 5 + CAR
 
 **Abilità Chiave**:
-- **Divine Domain**: Scegli un dominio divino
-- **Channel Divinity**: Poteri divini una volta per riposo breve
-- **Spellcasting**: Può lanciare incantesimi da slot
+- **Dominio Divino**: Scegli un dominio divino
+- **Canale Divino**: Poteri divini una volta per riposo breve
+- **Lancio Incantesimi**: Può lanciare incantesimi spendendo PM
+
+**Competenze**:
+- Armature: Leggere, medie, scudi
+- Armi: Semplici
+- Skill: Medicina, Religione
 
 ### Stregone (Warlock)
 
 Ha fatto un patto con un'entità potente per ottenere magia.
 
-**Dadi Vita**: d8
-
-**Competenze Armature**: Armature leggere
-
-**Competenze Armi**: Armi semplici
+**PF Base**: 8 + COS
+**PM Base**: 8 + CAR
+**PO Base**: 10 + CAR
 
 **Abilità Chiave**:
-- **Pact Magic**: Sistema di incantesimi unico
-- **Otherworldly Patron**: Scegli un patrono (Ombra, Fea, Celeste, ecc.)
-- **Eldritch Invocations**: Poteri speciali dal patrono
+- **Patto Magico**: Sistema di incantesimi unico
+- **Patrono Otherworldly**: Scegli un patrono (Ombra, Fata, Celeste)
+- **Invocazioni Eldritch**: Poteri speciali dal patrono
+
+**Competenze**:
+- Armature: Leggere
+- Armi: Semplici
+- Skill: Persuasione, Intimidazione
 
 ### Ranger
 
 Cacciatore esperto, eccelle nel tracciamento e combattimento in natura.
 
-**Dadi Vita**: d10
-
-**Competenze Armature**: Armature leggere, medie, scudi
-
-**Competenze Armi**: Armi semplici, armi marziali
+**PF Base**: 10 + COS
+**PM Base**: 5 + SAG
+**PO Base**: 8 + CAR
 
 **Abilità Chiave**:
-- **Favored Enemy**: Vantaggio contro certi nemici
-- **Natural Explorer**: Vantaggio in certi terreni
-- **Ranger Archetype**: Scegli un archetipo (Hunter, Gloom Stalker, ecc.)
+- **Nemico Favorito**: Vantaggio contro certi nemici
+- **Esploratore Naturale**: Vantaggio in certi terreni
+- **Archetipo Ranger**: Scegli un archetipo (Cacciatore, Ombra)
+
+**Competenze**:
+- Armature: Leggere, medie, scudi
+- Armi: Semplici, marziali
+- Skill: Percezione, Sopravvivenza, Furtività
 
 ---
 
 ## 🎲 Abilità
 
+### Skill
+
+| Skill | Attributo | Descrizione |
+|-------|-----------|-------------|
+| Atletica | FOR | Potenza fisica, salti, arrampicata |
+| Acrobazia | DES | Equilibrio, agilità, evasione |
+| Percezione | SAG | Osservazione, udito, olfatto |
+| Investigazione | INT | Analisi, deduzione, ricerca |
+| Persuasione | CAR | Negoziazione, influenza |
+| Intimidazione | CAR | Costrizione, minaccia |
+| Furtività | DES | Nascondersi, muoversi silenziosamente |
+| Conoscenza Arcana | INT | Magia, rune, artefatti |
+| Medicina | SAG | Guarigione, diagnosi |
+| Sopravvivenza | SAG | Navigazione, caccia, sopravvivenza |
+| Storia | INT | Conoscenza storica, culture |
+| Religione | INT | Divinità, culti, rituali |
+
 ### Tiri di Abilità
 
-Quando fai un'azione che incertezza, tira un d20 e aggiungi il modificatore dell'abilità pertinente.
+Quando fai un'azione che richiede una skill:
 
-**Difficoltà (DC)**:
-- **Facile**: DC 10
-- **Medio**: DC 15
-- **Difficile**: DC 20
-- **Molto Difficile**: DC 25
+1. Tira d20
+2. Aggiungi modificatore attributo
+3. Aggiungi bonus competenza (se competente)
+4. Confronta con DC
 
 ### Vantaggio e Svantaggio
 
-- **Vantaggio**: Tira due d20, usa il risultato più alto
-- **Svantaggio**: Tira due d20, usa il risultato più basso
-
-### Competenze
-
-Se sei competente in una skill, aggiungi il tuo bonus di competenza al tiro.
+- **Vantaggio**: Tira due d20, usa il più alto
+- **Svantaggio**: Tira due d20, usa il più basso
 
 ---
 
@@ -252,7 +280,9 @@ Se sei competente in una skill, aggiungi il tuo bonus di competenza al tiro.
 
 ### Iniziativa
 
-All'inizio del combattimento, ogni personaggio tira iniziativa (d20 + modificatore DES).
+All'inizio del combattimento, ogni personaggio tira iniziativa:
+
+**Formula**: d20 + modificatore DES
 
 ### Turno
 
@@ -260,59 +290,106 @@ Ogni turno, un personaggio può:
 
 1. **Azione**: Attaccare, lanciare incantesimo, ecc.
 2. **Movimento**: Spostarsi fino alla velocità
-3. **Azione Bonus**: Azioni minori (dodge, disengage, ecc.)
-4. **Reazione**: Un'azione fuori turno (opportunity attack, ecc.)
+3. **Azione Bonus**: Azioni minori
+4. **Reazione**: Un'azione fuori turno
+
+### Azioni
+
+- **Attacco**: Attacca con un'arma
+- **Lancio Incantesimo**: Lanci un incantesimo
+- **Dodge**: Vantaggio ai tiri di difesa
+- **Disengage**: Spostarti senza provocare opportunity attack
+- **Aiuto**: Dai vantaggio a un alleato
+- **Cerca**: Cerca qualcosa nell'area
+- **Corri**: Raddoppia la velocità
 
 ### Attacco
 
-Per attaccare: tira d20 + bonus di attacco vs AC del bersaglio.
+Per attaccare:
 
-**Danno**: Se colpisci, tira il dado del danno dell'arma.
+1. Tira d20 + bonus attacco
+2. Confronta con AC del bersaglio
+3. Se colpisci, tira il danno
 
-### PF (Punti Ferita)
+### Danno
 
-Quando i PF scendono a 0, il personaggio è incosciente.
+Il danno base è determinato dall'arma.
 
-**Death Saves**: Tre falliti = morte, tre successi = stabile.
+**Formula**: dado danno + modificatore FOR/DES
 
 ---
 
 ## ✨ Magia
 
+### Punti Magia (PM)
+
+Invece di slot, Shadowbound usa Punti Magia.
+
+**PM Base**: 5 + modificatore INT (o SAG per chierico, CAR per stregone)
+
 ### Lancio di Incantesimi
 
-Per lanciare un incantesimo: tira d20 + modificatore abilità + bonus competenza vs DC del bersaglio.
+Per lanciare un incantesimo:
 
-### Slot di Incantesimi
+1. Scegli un incantesimo dal tuo elenco
+2. Paga il costo in PM
+3. Tira d20 + modificatore attributo + bonus competenza
+4. Confronta con DC del bersaglio
 
-Ogni giorno, hai un numero limitato di slot per ogni livello di incantesimo.
+### Costo in PM
+
+| Livello Incantesimo | Costo PM |
+|-------------------|----------|
+| Cantrip (0°) | 0 |
+| 1° | 2 |
+| 2° | 3 |
+| 3° | 5 |
+| 4° | 7 |
+| 5° | 9 |
 
 ### Scuole di Magia
 
-- **Abjuration**: Protezione e difesa
-- **Conjuration**: Creazione di oggetti e creature
-- **Divination**: Informazione e conoscenza
-- **Enchantment**: Controllo mentale
-- **Evocation**: Energia distruttiva
-- **Illusion**: Inganni e false immagini
-- **Necromancy**: Morte e non-morti
-- **Transmutation**: Cambiamento della materia
+- **Ombra**: Manipolazione delle ombre
+- **Luce**: Manipolazione della luce
+- **Sangue**: Magia legata al sangue
+- **Spirito**: Comunicazione con spiriti
+- **Mente**: Controllo mentale e illusioni
 
 ### Incantesimi Base
 
-**Cantrips (Livello 0)**:
-- *Fire Bolt*: Danno di fuoco a distanza
-- *Mage Hand*: mano telecinetica
-- *Prestidigitation*: piccoli trucchi magici
-- *Ray of Frost*: Danno di freddo e rallentamento
-- *Shocking Grasp*: Danno elettrico, vantaggio contro armature metalliche
+**Cantrips (0°)**:
+- *Bolt d'Ombra*: Danno 1d10 necrotico
+- *Mano Magica*: Mano telecinetica
+- *Prestidigazione*: Piccoli trucchi
+- *Raggio di Gelo*: Danno 1d8 freddo + rallentamento
 
 **Incantesimi di Livello 1**:
-- *Magic Missile*: Danni garantiti
-- *Shield*: Bonus AC temporaneo
-- *Sleep*: Induce sonno
-- *Cure Wounds*: Guarigione
-- *Burning Hands*: Cono di fuoco
+- *Dardo Magico*: Danni garantiti (1d4+1 per missile, 3 missili)
+- *Scudo*: Bonus AC +5
+- *Cura Ferite*: Guarigione 1d8 + modificatore
+- *Mani Infuocate*: Cono di fuoco
+
+---
+
+## 🌑 Ombre
+
+### Punti Ombra (PO)
+
+I personaggi hanno Punti Ombra che rappresentano la loro connessione con le entità oscure.
+
+**PO Base**: 5 + modificatore CAR
+
+### Uso dei PO
+
+- **Vantaggio**: 1 PO = vantaggio su un tiro
+- **Resistenza**: 2 PO = resistere a un effetto
+- **Potere Ombra**: 3 PO = usare un potere speciale
+
+### Poteri Ombra
+
+- **Passo nell'Ombra**: Teletrasportarsi tra ombre (3 PO)
+- **Parola d'Ombra**: Comunicare con le ombre (2 PO)
+- **Maschera d'Ombra**: Invisibile nell'oscurità (3 PO)
 
 ---
 
@@ -320,25 +397,26 @@ Ogni giorno, hai un numero limitato di slot per ogni livello di incantesimo.
 
 ### Armi
 
-| Arma | Danno | Tipo | Proprietà |
-|------|-------|------|-----------|
-| Spada corta | 1d6 | Taglio | Versatile (1d8) |
-| Spada lunga | 1d8 | Taglio | Versatile (1d10) |
-| Mazza | 1d6 | Contusione | Versatile (1d8) |
-| Ascia da guerra | 1d8 | Taglio | Versatile (1d10) |
-| Arco lungo | 1d8 | Perforazione | Ammunition, Range (18/60) |
-| Pugnale | 1d4 | Perforazione | Finesse, Light, Range (6/18) |
+| Arma | Danno | Tipo |
+|------|-------|------|
+| Pugnale | 1d4 | Perforazione |
+| Spada corta | 1d6 | Taglio |
+| Spada lunga | 1d8 | Taglio |
+| Mazza | 1d6 | Contusione |
+| Ascia da guerra | 1d8 | Taglio |
+| Arco corto | 1d6 | Perforazione |
+| Arco lungo | 1d8 | Perforazione |
 
 ### Armature
 
-| Armatura | AC | Tipo | Proprietà |
-|----------|-----|------|-----------|
-| Padded | 11 + DES | Leggera | Disadvantage Stealth |
-| Leather | 11 + DES (max 2) | Leggera | - |
-| Chain Shirt | 13 + DES (max 2) | Leggera | - |
-| Scale Mail | 14 + DES (max 2) | Media | Disadvantage Stealth |
-| Chain Mail | 16 | Media | Disadvantage Stealth |
-| Plate | 18 | Pesante | Disadvantage Stealth |
+| Armatura | AC | Tipo |
+|----------|-----|------|
+| Nessuna | 10 + DES | - |
+| Pelle | 11 + DES (max 2) | Leggera |
+| Cuoio | 12 + DES (max 2) | Leggera |
+| Scaglie | 14 + DES (max 2) | Media |
+| Maglia | 16 | Media |
+| Piatta | 18 | Pesante |
 
 ### Kit di Avventuriero
 
@@ -353,37 +431,67 @@ Include:
 
 ---
 
+## 📈 Progressione
+
+### Livelli
+
+I personaggi guadagnano livelli guadagnando XP.
+
+| Livello | XP Minimo | Bonus Competenza |
+|---------|-----------|------------------|
+| 1 | 0 | +2 |
+| 2 | 100 | +2 |
+| 3 | 300 | +2 |
+| 4 | 600 | +2 |
+| 5 | 1,000 | +3 |
+| 6 | 1,500 | +3 |
+| 7 | 2,500 | +3 |
+| 8 | 4,000 | +3 |
+| 9 | 6,000 | +3 |
+| 10 | 9,000 | +4 |
+
+### Miglioramento di Livello
+
+Quando sali di livello:
+
+1. Aumenta PF massimi
+2. Aumenta PM massimi (se applicabile)
+3. Impara nuove abilità
+4. Scegli un miglioramento (attributo o feat)
+
+---
+
 ## 🎭 Background
 
 ### Soldato
 
 Hai servito come soldato in un esercito o milizia.
 
-**Competenze**: Athletics, Intimidation
-**Strumenti**: Veicoli (terrestri), un tipo di gioco da guerra
-**Equipaggiamento**: Insegna di rango, set di dadi da gioco, abito comune, munizioni, arma, 10 gp
+**Competenze**: Atletica, Intimidazione
+**Strumenti**: Veicoli (terrestri)
+**Equipaggiamento**: Insegna, set di dadi da guerra, abito comune, arma, 10 gp
 
 ### Criminal
 
 Hai un passato nel mondo del crimine.
 
-**Competenze**: Deception, Stealth
-**Strumenti**: Un set di strumenti di ladro
-**Equipaggiamento**: Un piccolo coltello, una mappa della città dove hai commesso crimini, abito comune, 15 gp
+**Competenze**: Persuasione, Furtività
+**Strumenti**: Set di strumenti di ladro
+**Equipaggiamento**: Pugnale, mappa, abito comune, 15 gp
 
 ### Sage
 
 Hai passato anni a studiare la conoscenza.
 
-**Competenze**: Arcana, History
-**Strumenti**: Un set di strumenti di scriba
-**Equipaggiamento**: Abito comune, penna e inchiostro, un piccolo coltello, una lettera dal tuo mentore, 10 gp
+**Competenze**: Conoscenza Arcana, Storia
+**Strumenti**: Set di strumenti di scriba
+**Equipaggiamento**: Abito comune, penna e inchiostro, coltello, lettera, 10 gp
 
 ### Acolyte
 
 Hai servito in un tempio o dedicato la vita a una divinità.
 
-**Competenze**: Insight, Religion
+**Competenze**: Percezione, Religione
 **Strumenti**: Nessuno
 **Equipaggiamento**: Abito comune, simbolo sacro, preghiere, 5 gp
 
@@ -391,9 +499,9 @@ Hai servito in un tempio o dedicato la vita a una divinità.
 
 Hai raggiunto la fama per un atto di eroismo nella tua terra natale.
 
-**Competenze**: Animal Handling, Survival
-**Strumenti**: Un tipo di strumento artigianale
-**Equipaggiamento**: Abito comune, un piccolo trofeo del tuo atto eroico, set di dadi da gioco, 10 gp
+**Competenze**: Sopravvivenza, Intimidazione
+**Strumenti**: Uno strumento artigianale
+**Equipaggiamento**: Abito comune, trofeo, set di dadi, 10 gp
 
 ---
 
@@ -403,7 +511,7 @@ Hai raggiunto la fama per un atto di eroismo nella tua terra natale.
 
 In Umbra, le ombre non sono semplici assenza di luce. Possono:
 
-- **Osservare**: Le ombre possono trasmettere informazioni a chi sa ascoltare
+- **Osservare**: Le ombre possono trasmettere informazioni
 - **Influenzare**: In luoghi molto oscuri, le ombre possono influenzare le azioni
 - **Manifestarsi**: In rare occasioni, le ombre possono prendere forma fisica
 
@@ -411,7 +519,7 @@ In Umbra, le ombre non sono semplici assenza di luce. Possono:
 
 Il mondo è sempre in penombra. Questo influenza:
 
-- **Visione**: Tutti i personaggi hanno un adattamento alla penombra
+- **Visione**: Tutti i personaggi hanno visione adattata (18 m)
 - **Stealth**: È più facile nascondersi nell'oscurità
 - **Magia della Luce**: Gli incantesimi di luce sono più potenti ma più rari
 
@@ -419,35 +527,11 @@ Il mondo è sempre in penombra. Questo influenza:
 
 L'esposizione prolungata alle ombre può causare corruzione:
 
-- **Corruzione Minore**: -1 a un'abilità
-- **Corruzione Media**: -2 a due abilità
-- **Corruzione Maggiore**: -2 a tutte le abilità, possesso da ombre
+- **Corruzione Minore**: -1 a un attributo
+- **Corruzione Media**: -1 a due attributi
+- **Corruzione Maggiore**: -2 a tutti gli attributi, possesso da ombre
 
 La corruzione può essere purificata solo con rituali specifici.
-
----
-
-## 🎯 Avanzamento
-
-### Livelli
-
-Guadagni livelli guadagnando XP:
-
-| Livello | XP Minimo | Caratteristiche |
-|---------|-----------|------------------|
-| 1 | 0 | Caratteristiche di classe |
-| 2 | 300 | Nuove abilità di classe |
-| 3 | 900 | Sottoclasse/Archetipo |
-| 4 | 2,700 | Ability Score Improvement |
-| 5 | 6,500 | Extra Attack, incantesimi 3° livello |
-
-### Ability Score Improvement
-
-A certi livelli (4, 8, 12, 16, 19), puoi:
-
-- Aumentare due abilità di +1
-- Aumentare un'abilità di +2
-- Scegliere un feat (opzionale)
 
 ---
 
@@ -456,25 +540,15 @@ A certi livelli (4, 8, 12, 16, 19), puoi:
 ### Glossario
 
 - **AC**: Classe Armatura
-- **HP**: Punti Ferita
 - **DC**: Classe Difficoltà
+- **PF**: Punti Ferita
+- **PM**: Punti Magia
+- **PO**: Punti Ombra
 - **XP**: Punti Esperienza
-- **SRD**: System Reference Document
-
-### Riferimenti
-
-Per regole complete, consulta il D&D 5.2.1 SRD originale.
 
 ---
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su Dungeons & Dragons 5.2.1 System Reference Document di Wizards of the Coast*
-*Modificato da alisio85 e la Shadowbound community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*
-
-**Attribuzione SRD Originale**:
-> Dungeons & Dragons, D&D, their respective logos, and all Wizards titles and 
-> characters are property of Wizards of the Coast LLC in the U.S.A. and other 
-> countries. © 2025 Wizards. The System Reference Document 5.2.1 is licensed 
-> under the Creative Commons Attribution 4.0 International License.

@@ -110,12 +110,11 @@ Nessuna armatura (mago)
 
 ## ✨ Magia
 
-### Slot di Incantesimi
+### Punti Magia (PM)
 
-| Livello | Slot Totali | Slot Usati |
-|--------|-------------|------------|
-| Cantrips | ∞ | 0 |
-| 1° | 2 | 0 |
+**PM Massimi**: 13
+**PM Attuali**: 13
+**Costo Incantesimi**: Cantrips 0, 1° livello 2 PM
 
 ### Incantesimi Conosciuti
 
@@ -133,6 +132,10 @@ Nessuna armatura (mago)
 
 ### Bonus Attacco Incantesimi
 **Bonus**: INT + competenza = +5
+
+### Recupero PM
+- Riposo breve: 1/4 PM massimi (3 PM)
+- Riposo lungo: Tutti i PM
 
 ---
 
@@ -204,11 +207,14 @@ Nessuna armatura (mago)
 
 ## ⚔️ Abilità di Classe (Mago Livello 1)
 
-### Arcane Recovery
-Durante un riposo breve, recupera 1 slot di incantesimo di 1° livello
+### Recupero Arcano
+Durante un riposo breve, recupera 1/4 PM massimi
 
-### Spellcasting
-Può lanciare incantesimi da slot
+### Tradizione Arcana
+Scegli una scuola di magia (Ombra)
+
+### Lancio Incantesimi
+Può lanciare incantesimi spendendo PM
 
 ---
 
@@ -268,15 +274,18 @@ Ha sentito voci di strani eventi a Bruma e spera di trovare lì indizi sulla ver
 
 ---
 
-## 🌑 Magia dell'Ombra (Tratto Razziale)
+## 🌑 Ombre
 
-**Dancing Lights**: Crea fino a quattro torce fluttuanti che puoi muovere a volontà. Durata 1 minuto.
+**Punti Ombra (PO)**: 5
+**Poteri Ombra**: Passo nell'Ombra (3 PO), Parola d'Ombra (2 PO)
 
-**Darkness**: Crea una sfera di oscurità 6 m di raggio. Durata 10 minuti. Una volta al giorno.
+### Tratto Razziale: Magia dell'Ombra
+**Dancing Lights**: Crea fino a quattro torce fluttuanti. Costo 0 PM.
+**Darkness**: Crea una sfera di oscurità 6 m di raggio. Costo 2 PM.
 
 ---
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Basato su D&D 5.2.1 SRD, modificato da alisio85 e la community*
+*Creato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*
