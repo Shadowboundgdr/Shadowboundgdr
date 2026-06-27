@@ -60,34 +60,58 @@ Le anime dei morti viaggiano verso uno dei tre regni:
 ### Continenti di Umbra
 
 #### Nord: Le Terre del Gelo Eterno
-- **Cronberg**: La capitale del nord, costruita su un ghiacciaio
-- **Foresta di Cristallo**: Alberi di ghiaccio che cantano nel vento
-- **Picco del Silenzio**: La montagna più alta, dove nessun suono esiste
-- **Tribù del Gelo**: Nomadi che venerano gli spiriti del freddo
+- **Cronberg**: La capitale del nord, costruita su un ghiacciaio. Popolazione: 50,000. Governata dal Consiglio dei Ghiacci.
+- **Foresta di Cristallo**: Alberi di ghiaccio che cantano nel vento. Dimora di spiriti elementali del freddo.
+- **Picco del Silenzio**: La montagna più alta (4,500 m), dove nessun suono esiste. Luogo di pellegrinaggio per monaci silenziosi.
+- **Tribù del Gelo**: Nomadi che venerano gli spiriti del freddo. Vivono in tende di pelle di orso.
+- **Porto del Nord**: L'unico porto non ghiacciato, dove commerciano navi speciali.
+- **Miniere di Ghiaccio**: Estrazione di cristalli magici usati in tutto Umbra.
 
 #### Est: Le Terre della Piaga
-- **Moria**: La città maledetta, abitata da non-morti "viventi"
-- **Paludi della Corruzione**: Acque nere che mutano chi le tocca
-- **Rovine di Zaram**: Antica capitale caduta per magia proibita
-- **Il Cerchio**: Una barriera magica che contiene la piaga
+- **Moria**: La città maledetta, abitata da non-morti "viventi". Popolazione: 30,000 (non-morti). Governata dal Signore dell'Oblio.
+- **Paludi della Corruzione**: Acque nere che mutano chi le tocca. Dimora di mostri mutanti.
+- **Rovine di Zaram**: Antica capitale caduta per magia proibita. Ricca di tesori ma estremamente pericolosa.
+- **Il Cerchio**: Una barriera magica che contiene la piaga. Mantenuta da stregoni sacri.
+- **Avamposto della Speranza**: L'ultimo insediamento umano prima delle Terre della Piaga.
+- **Cimitero dei Giganti**: Scheletri di giganti antichi che servono come fortezza per i non-morti.
 
 #### Ovest: Le Terre del Vento
-- **Aeris**: Città costruita su piattaforme fluttuanti
-- **Canyon degli Sussurri**: Voci dei morti echeggiano per sempre
-- **Torri del Vento**: Antichi faro che guidano i viaggiatori
-- **Nomadi del Cielo**: Popolo che vive su bestie volanti
+- **Aeris**: Città costruita su piattaforme fluttuanti. Popolazione: 40,000. Governata dal Capitano del Vento.
+- **Canyon degli Sussurri**: Voci dei morti echeggiano per sempre. Luogo di divinazione.
+- **Torri del Vento**: Antichi faro che guidano i viaggiatori. Ogni torre ha un guardiano eterno.
+- **Nomadi del Cielo**: Popolo che vive su bestie volanti. Mercanti famosi in tutto Umbra.
+- **Isola delle Nuvole**: Isola fluttuante dove vivono i maestri del vento.
+- **Fiume Aereo**: Corrente d'aria che permette il viaggio rapido tra le città.
 
 #### Sud: Le Terre della Fiamma
-- **Ignis**: Città forgiata nel cratere di un vulcano
-- **Deserto di Cenere**: Sabbia bruciata che brucia al tocco
-- **Fiume di Lava**: Scorre ininterrottamente dal vulcano
-- **Culto della Fiamma**: Adoratori del fuoco che cercano la purificazione
+- **Ignis**: Città forgiata nel cratere di un vulcano attivo. Popolazione: 35,000. Governata dal Gran Sacerdote del Fuoco.
+- **Deserto di Cenere**: Sabbia bruciata che brucia al tocco. Dimora di elementali del fuoco.
+- **Fiume di Lava**: Scorre ininterrottamente dal vulcano, usato per forgiare armi magiche.
+- **Culto della Fiamma**: Adoratori del fuoco che cercano la purificazione attraverso il dolore.
+- **Oasi di Vetro**: Unica fonte d'acqua non contaminata, protetta da magia.
+- **Mercato del Fuoco**: Il più grande mercato di armi forgiate nella lava.
 
 #### Centro: Le Terre dell'Equilibrio
-- **Eternum**: La capitale di Umbra, dove le fazioni si incontrano
-- **Foresta dei Sussurri**: Alberi che parlano con i viaggiatori
-- **Lago degli Specchi**: Riflette non il presente, ma il passato
-- **Il Nexus**: Punto di convergenza di tutte le linee leylines
+- **Eternum**: La capitale di Umbra, dove le fazioni si incontrano. Popolazione: 100,000. Governata dal Consiglio dell'Equilibrio.
+- **Foresta dei Sussurri**: Alberi che parlano con i viaggiatori. Dimora di druidi e fate.
+- **Lago degli Specchi**: Riflette non il presente, ma il passato. Luogo di divinazione.
+- **Il Nexus**: Punto di convergenza di tutte le linee leylines. Centro di potere magico.
+- **Accademia delle Arti Oscure**: La più grande scuola di magia di Umbra.
+- **Mercato dell'Equilibrio**: Il più grande mercato di Umbra, dove si scambiano merci da tutti i continenti.
+
+### Viaggi e Distanze
+
+#### Rotte Commerciali
+- **Via del Gelo**: Cronberg → Eternum (2 settimane)
+- **Via del Vento**: Aeris → Eternum (1 settimana via fiume aereo)
+- **Via della Fiamma**: Ignis → Eternum (3 settimane attraverso il deserto)
+- **Via della Piaga**: Avamposto della Speranza → Moria (1 settimana, estremamente pericoloso)
+
+#### Mezzi di Trasporto
+- **Navi del Gelo**: Navi rinforzate con magia del freddo
+- **Bestie Volanti**: Usate dai Nomadi del Cielo
+- **Carovane del Deserto**: Protette da mercenari e maghi
+- **Teletrasporto**: Solo tra nodi di potere, molto costoso
 
 ### Geografia Magica
 
