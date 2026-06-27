@@ -2,9 +2,9 @@
 
 ![Shadowbound Logo](docs/logo.png)
 
-**Regolamento Dark Fantasy Open Source**
+**Regolamento Dark Fantasy Open Source basato su D&D 5.5 SRD**
 
-Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open source e gestito dalla community. Con un sistema di gioco originale e innovativo, Shadowbound porta il dark fantasy in direzioni ancor più oscure e mature.
+Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open source e gestito dalla community. Basato sul System Reference Document 5.2.1 di Dungeons & Dragons (licenza Creative Commons Attribution 4.0 International), Shadowbound porta il regolamento in direzioni ancor più oscure e mature con un sistema di gioco innovativo.
 
 ---
 
@@ -23,7 +23,7 @@ Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open sour
 - **Dark Fantasy Puro**: Un'ambientazione matura, oscura e coinvolgente
 - **Open Source**: Tutto il materiale è sotto licenza Creative Commons Attribution 4.0
 - **Community Driven**: Sviluppato e gestito dalla community italiana di GdR
-- **Sistema Originale**: Regolamento unico e innovativo
+- **Basato su D&D 5.2.1 SRD**: Sistema derivato dal regolamento D&D con modifiche originali
 - **Italiano**: Tutto il materiale è in italiano
 
 ---
@@ -32,16 +32,33 @@ Shadowbound è un gioco di ruolo da tavolo dark fantasy, completamente open sour
 
 Questo progetto è sotto licenza **Creative Commons Attribution 4.0 International (CC-BY-4.0)**.
 
+Il regolamento base è derivato dal **Dungeons & Dragons 5.2.1 System Reference Document** di Wizards of the Coast, anch'esso sotto licenza CC-BY-4.0.
+
 ### Attribuzione Obbligatoria
 
 Quando usi o modifichi Shadowbound, devi:
 
-1. Mantenere l'attribuzione al progetto Shadowbound
-2. Indicare se sono state fatte modifiche al materiale originale
-3. Includere un link alla licenza CC-BY-4.0
+1. Mantenere l'attribuzione a Wizards of the Coast per il materiale SRD originale
+2. Mantenere l'attribuzione al progetto Shadowbound per le modifiche
+3. Indicare se sono state fatte modifiche al materiale originale
+4. Includere un link alla licenza CC-BY-4.0
+
+**Attribuzione SRD Originale:**
+> Dungeons & Dragons, D&D, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast LLC in the U.S.A. and other countries. © 2025 Wizards. The System Reference Document 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License.
 
 **Attribuzione Shadowbound:**
-> Shadowbound - Regolamento Dark Fantasy Open Source. Creato da alisio85 e la community. © 2025 alisio85. Licenziato sotto CC-BY-4.0.
+> Shadowbound è un derivato del D&D 5.2.1 SRD, modificato da alisio85 e la community. © 2025 alisio85. Licenziato sotto CC-BY-4.0.
+
+### ⚠️ Nota Importante
+
+**Il manuale completo di Dungeons & Dragons NON è incluso in questo progetto.**
+
+Shadowbound è basato esclusivamente sul System Reference Document (SRD) 5.2.1 di D&D, che è disponibile separatamente sotto licenza CC-BY-4.0. Per accedere al manuale completo di D&D, è necessario acquistarlo direttamente da Wizards of the Coast o dai rivenditori autorizzati.
+
+Questo progetto contiene solo:
+- Le regole base derivate dal SRD
+- Modifiche e aggiunte originali di Shadowbound
+- Ambientazione e contenuti creati dalla community
 
 ---
 
@@ -73,8 +90,11 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 
 ## 📚 Documentazione
 
-- [Sistema di Gioco](docs/sistema-gioco.md) - Regolamento originale di Shadowbound
+- [Sistema di Gioco](docs/sistema-gioco.md) - Regolamento derivato da D&D 5.2.1 SRD con modifiche originali
+- [Manuale del Giocatore](docs/manuale-giocatore.md) - Regolamento completo per i giocatori
+- [Manuale del DM](docs/manuale-dm.md) - Guida per chi narrare
 - [Ambientazione](docs/ambientazione.md) - Il mondo di Umbra
+- [Bestiario](docs/bestiario.md) - Mostri e creature
 - [Guida Rapida](docs/guida-rapida.md) - Guida per nuovi giocatori
 - [Avventure](avventure/) - Moduli pronti all'uso
 
@@ -108,6 +128,7 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 
 ## 🙏 Riconoscimenti
 
+- **Wizards of the Coast** - Per il D&D 5.2.1 SRD sotto licenza CC-BY-4.0
 - **La Community Italiana di GdR** - Per il supporto e il feedback
 - **Tutti i contributori** - Che rendono questo progetto possibile
 

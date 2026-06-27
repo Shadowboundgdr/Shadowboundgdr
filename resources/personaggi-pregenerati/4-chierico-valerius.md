@@ -298,5 +298,5 @@ Ha deciso di partire in pellegrinaggio per testare la sua fede nel mondo esterno
 
 **Creato per Shadowbound - Regolamento Dark Fantasy Open Source**
 
-*Creato da alisio85 e la Shadowbound community*
+*Basato su D&D 5.2.1 SRD, modificato da alisio85 e la Shadowbound community*
 *Licenza: Creative Commons Attribution 4.0 International (CC-BY-4.0)*
