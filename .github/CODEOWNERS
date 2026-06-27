@@ -1,0 +1,31 @@
+# CODEOWNERS
+
+# Questo file definisce chi è responsabile per la revisione dei cambiamenti
+# in diverse parti del progetto.
+
+# Maintainer principale - approva tutto
+* @alisio85
+
+# Responsabili per le sezioni specifiche
+
+# Regolamento e meccaniche
+/regolamento/ @alisio85
+/docs/manuale-*.md @alisio85
+
+# Ambientazione
+/docs/ambientazione.md @alisio85
+/avventure/ @alisio85
+
+# Bestiario
+/docs/bestiario.md @alisio85
+/bestiario/ @alisio85
+
+# Asset visivi
+/docs/logo* @alisio85
+/assets/ @alisio85
+
+# Documentazione e community
+/README.md @alisio85
+/CONTRIBUTING.md @alisio85
+/CODE_OF_CONDUCT.md @alisio85
+/.github/ @alisio85

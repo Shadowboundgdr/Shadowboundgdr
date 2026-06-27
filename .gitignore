@@ -1,0 +1,85 @@
+# Shadowbound .gitignore
+
+# File di sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# File temporanei
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# File di backup
+*.bak
+*.backup
+
+# File di log
+*.log
+
+# File PDF scaricati (ma manteniamo il SRD)
+# IT_SRD_CC_v5.2.1.pdf
+
+# File di output generati
+/output/
+/dist/
+/build/
+
+# File di configurazione IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# File di Node.js (se usiamo tool JS)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# File di Python (se usiamo tool Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# File di LaTeX (se usiamo LaTeX per PDF)
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+
+# File di immagine raw (ma manteniamo quelli usati)
+# *.raw
+# *.cr2
+
+# File di compressione
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# File personali
+*.local
+.env
+.env.local
+
+# File di test
+test/
+tests/
+*.test
+
+# File di documentazione temporanea
+docs/draft/
+docs/wip/
