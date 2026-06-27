@@ -16,6 +16,48 @@
 
 ## 💀 Mostri Non-Morti
 
+### Zombie dell'Ombra (Shadow Zombie)
+
+*Non-morto corrotto dalle ombre, più resistente degli zombie normali.*
+
+- **CR**: 1/4 (25 XP)
+- **HP**: 22
+- **AC**: 8
+- **Velocità**: 6 m
+- **FOR**: 13 (+1), **DES**: 6 (-2), **COS**: 16 (+3), **INT**: 3 (-4), **SAG**: 6 (-2), **CAR**: 5 (-3)
+- **Resistenze**: Danninon magici
+- **Immunità**: Veleno
+
+**Azioni**:
+- **Multiattack**: Due attacchi con morso
+- **Morso**: +3, 1d6+1 danni perforanti
+
+**Abilità**:
+- **Resistenza Ombra**: Vantaggio ai save contro corruzione
+
+---
+
+### Scheletro Corrotto (Corrupted Skeleton)
+
+*Scheletro rinato con poteri oscuri.*
+
+- **CR**: 1/4 (25 XP)
+- **HP**: 13
+- **AC**: 13 (armatura naturale)
+- **Velocità**: 9 m
+- **FOR**: 10 (+0), **DES**: 14 (+2), **COS**: 10 (+0), **INT**: 6 (-2), **SAG**: 8 (-1), **CAR**: 5 (-3)
+- **Resistenze**: Danninon magici
+- **Immunità**: Veleno, esaustione
+
+**Azioni**:
+- **Arco Corto**: +4, gittata 18/60 m, 1d6+2 danni perforanti
+- **Spada Corta**: +4, 1d6+2 danni taglienti
+
+**Abilità**:
+- **Visione nel Buio**: 18 m
+
+---
+
 ### Ombra Minore (Shadow Minor)
 
 *Piccole manifestazioni di ombra che si nutrono di luce.*
@@ -128,6 +170,48 @@
 
 ---
 
+### Ragno delle Tenebre (Dark Spider)
+
+*Ragno gigante che vive nelle zone più oscure.*
+
+- **CR**: 1 (100 XP)
+- **HP**: 26
+- **AC**: 14 (armatura naturale)
+- **Velocità**: 9 m, arrampicata 9 m
+- **FOR**: 14 (+2), **DES**: 16 (+3), **COS**: 12 (+1), **INT**: 2 (-4), **SAG**: 11 (+0), **CAR**: 4 (-3)
+- **Resistenze**: Danninon magici
+
+**Azioni**:
+- **Multiattack**: Due attacchi con morso o uno con ragnatela
+- **Morso**: +5, 1d8+2 danni perforanti + DC 11 Constitution save o veleno (1d6 danni veleno)
+- **Ragnatela**: +5, gittata 6 m, 2d6 danni taglienti + afferrato
+
+**Abilità**
+- **Ragnatela**: Può lanciare ragnatela come bonus action
+- **Visione nel Buio**: 18 m
+
+---
+
+### Pipistrello Gigante (Giant Bat)
+
+*Pipistrello delle dimensioni di un uomo, predatore notturno.*
+
+- **CR**: 1/4 (25 XP)
+- **HP**: 22
+- **AC**: 12
+- **Velocità**: 3 m, volo 9 m
+- **FOR**: 15 (+2), **DES**: 16 (+3), **COS**: 10 (+0), **INT**: 2 (-4), **SAG**: 12 (+1), **CAR**: 6 (-2)
+- **Resistenze**: Danninon magici
+
+**Azioni**:
+- **Morso**: +4, 1d4+2 danni perforanti
+- **Ecolocalizzazione**: Vantaggio ai tiri di Perception che coinvolgono udito
+
+**Abilità**:
+- **Volo**: Può volare
+
+---
+
 ### Orso delle Caverne Oscure (Cave Bear)
 
 *Orso che vive nelle caverne più profonde di Umbra.*
@@ -184,6 +268,37 @@
 - **Multiattack**: Due attacchi con spada lunga
 - **Spada Lunga**: +4, 1d8+2 danni taglienti
 - **Colpo d'Ombra**: Una volta per turno, può aggiungere 2d6 danni necrotici a un attacco
+
+### Bandito (Bandit)
+
+*Criminale comune nelle terre di Umbra.*
+
+- **CR**: 1/8 (25 XP)
+- **HP**: 11
+- **AC**: 12 (armatura di cuoio)
+- **Velocità**: 9 m
+- **FOR**: 10 (+0), **DES**: 12 (+1), **COS**: 10 (+0), **INT**: 10 (+0), **SAG**: 10 (+0), **CAR**: 10 (+0)
+
+**Azioni**:
+- **Scimitar**: +3, 1d6+1 danni taglienti
+- **Arco Corto**: +3, gittata 18/60 m, 1d6 danni perforanti
+
+---
+
+### Mercenario (Mercenary)
+
+*Soldato per denaro, leale solo al pagamento.*
+
+- **CR**: 1/2 (50 XP)
+- **HP**: 30
+- **AC**: 13 (armatura di cuoio)
+- **Velocità**: 9 m
+- **FOR**: 14 (+2), **DES**: 12 (+1), **COS**: 14 (+2), **INT**: 10 (+0), **SAG**: 10 (+0), **CAR**: 10 (+0)
+
+**Azioni**:
+- **Multiattack**: Due attacchi con spada o uno con arco
+- **Spada**: +4, 1d8+2 danni taglienti
+- **Arco Lungo**: +4, gittata 18/60 m, 1d8+2 danni perforanti
 
 ---
 
@@ -261,39 +376,98 @@
 - **Falsa Apparenza**: Se immobile, indistinguibile da una normale statua
 - **Resistenza Magica**: Vantaggio ai save contro incantesimi
 
+### Golem di Ferro (Iron Golem)
+
+*Costrutto massiccio creato con ferro magico.*
+
+- **CR**: 16 (15,000 XP)
+- **HP**: 210
+- **AC**: 20 (armatura naturale)
+- **Velocità**: 9 m
+- **FOR**: 24 (+7), **DES**: 9 (-1), **COS**: 20 (+5), **INT**: 3 (-4), **SAG**: 11 (+0), **CAR**: 1 (-5)
+- **Resistenze**: Danninon magici, avvelenamento, psionico
+- **Immunità**: Veleno, danni da fuoco, danni necrotici
+- **Condizioni**: Immune a charmed, esaustione, frightened, paralizzato, petrificato, avvelenato
+
+**Azioni**:
+- **Multiattack**: Due attacchi con spada
+- **Spada**: +13, 2d10+7 danni taglienti
+- **Gas Velenoso**: Come azione, rilascia gas velenoso (DC 19 Constitution save o 8d8 danni veleno)
+- **Rigenerazione**: Recupera 10 PF all'inizio del turno se ha almeno 1 PF
+
+**Abilità**:
+- **Resistenza Magica**: Vantaggio ai save contro incantesimi
+- **Immunità Magica**: Immune a danni da incantesimi di 1°-5° livello
+
+---
+
+### Golem di Ombra (Shadow Golem)
+
+*Costrutto fatto di ombra solida.*
+
+- **CR**: 9 (5,000 XP)
+- **HP**: 85
+- **AC**: 17 (armatura naturale)
+- **Velocità**: 9 m
+- **FOR**: 18 (+4), **DES**: 14 (+2), **COS**: 18 (+4), **INT**: 6 (-2), **SAG**: 10 (+0), **CAR**: 1 (-5)
+- **Resistenze**: Danninon magici, acido, freddo, necrotico
+- **Immunità**: Veleno, danni da luce
+- **Condizioni**: Immune a charmed, esaustione, frightened, paralizzato, petrificato, avvelenato
+
+**Azioni**:
+- **Multiattack**: Due attacchi con pugno
+- **Pugno**: +8, 2d8+4 danni contusivi + DC 15 Strength save o afferrato
+- **Assorbimento Ombra**: Come reazione, può ridurre i danni di un attacco a metà
+
+**Abilità**:
+- **Passo nell'Ombra**: Può teletrasportarsi fino a 9 m in un'ombra
+- **Resistenza Magica**: Vantaggio ai save contro incantesimi
+
 ---
 
 ## 📊 Tabelle di Encounter
 
 ### Per Livello 1-3
 
-| d8 | Encounter |
-|----|----------|
+| d10 | Encounter |
+|-----|----------|
 | 1-2 | 2d4 Ombre Minori |
-| 3-4 | 1 Ombra + 2d4 Ombre Minori |
-| 5-6 | 1 Spettro |
-| 7 | 1 Lupo delle Ombre + 2d4 Ombre Minori |
-| 8 | 1 Cultista dell'Ombra + 2d4 Ombre Minori |
+| 3 | 1 Ombra + 2d4 Ombre Minori |
+| 4 | 1 Spettro |
+| 5 | 1 Lupo delle Ombre + 2d4 Ombre Minori |
+| 6 | 1 Cultista dell'Ombra + 2d4 Ombre Minori |
+| 7 | 2d4 Banditi |
+| 8 | 1 Zombie dell'Ombra + 2d4 Ombre Minori |
+| 9 | 1 Scheletro Corrotto + 2d4 Ombre Minori |
+| 10 | 1 Ragno delle Tenebre |
 
 ### Per Livello 4-6
 
-| d8 | Encounter |
-|----|----------|
+| d10 | Encounter |
+|-----|----------|
 | 1-2 | 2d4 Ombre + 1 Spettro |
-| 3-4 | 1 Orso delle Caverne Oscure + 2d4 Ombre Minori |
-| 5-6 | 2 Cultisti dell'Ombra + 1 Guardia Corrotta |
-| 7 | 1 Servitore del Vuoto + 2d4 Ombre |
-| 8 | 1 Guardiano di Pietra |
+| 3 | 1 Orso delle Caverne Oscure + 2d4 Ombre Minori |
+| 4 | 2 Cultisti dell'Ombra + 1 Guardia Corrotta |
+| 5 | 1 Servitore del Vuoto + 2d4 Ombre |
+| 6 | 1 Guardiano di Pietra |
+| 7 | 1 Mercenario + 2 Banditi |
+| 8 | 2 Spettri + 2d4 Ombre Minori |
+| 9 | 1 Ragno delle Tenebre + 2d4 Ombre |
+| 10 | 1 Lupo delle Ombre + 1 Orso delle Caverne Oscure |
 
 ### Per Livello 7-10
 
-| d8 | Encounter |
-|----|----------|
+| d10 | Encounter |
+|-----|----------|
 | 1-2 | 1 Lich (debole) + 2d4 Spettri |
-| 3-4 | 1 Angelo Caduto (debole) + 2d4 Servitori del Vuoto |
-| 5-6 | 2 Guardiani di Pietra + 2d4 Ombre |
-| 7 | 1 Servitore del Vuoto + 1 Spettro + 2d4 Ombre |
-| 8 | 1 Angelo Caduto (debole) + 1 Guardia Corrotta + 2d4 Cultisti |
+| 3 | 1 Angelo Caduto (debole) + 2d4 Servitori del Vuoto |
+| 4 | 2 Guardiani di Pietra + 2d4 Ombre |
+| 5 | 1 Servitore del Vuoto + 1 Spettro + 2d4 Ombre |
+| 6 | 1 Angelo Caduto (debole) + 1 Guardia Corrotta + 2d4 Cultisti |
+| 7 | 1 Golem di Ombra + 2d4 Spettri |
+| 8 | 2 Servitori del Vuoto + 1 Guardiano di Pietra |
+| 9 | 1 Lich (debole) + 1 Golem di Ombra |
+| 10 | 1 Angelo Caduto (debole) + 1 Golem di Ombra |
 
 ---
 
