@@ -96,6 +96,9 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 - [Manuale del DM](docs/manuale-dm.md) - Guida per chi narrare
 - [Sottoclassi](docs/sottoclassi.md) - Sottoclassi per tutte le classi
 - [Artefatti Magici](docs/artefatti.md) - Oggetti magici di Shadowbound
+- [Sistema di Crafting](docs/crafting.md) - Creazione di oggetti e artefatti
+- [Fazioni e Reputazione](docs/fazioni.md) - Sistema di fazioni e reputazione
+- [Guida Avanzati](docs/guida-avanzati.md) - Strategie per giocatori esperti
 
 ### Ambientazione
 - [Ambientazione](docs/ambientazione.md) - Il mondo di Umbra
@@ -104,6 +107,7 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 ### Avventure
 - [Ombre Risveglie](avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
 - [La Cripta dell'Eco Perduto](avventure/seconda-avventura.md) - Avventura per livelli 4-6
+- [Il Trono dell'Oblio](avventure/terza-avventura.md) - Avventura epica per livelli 7-10
 - [Guida DM - Ombre Risveglie](avventure/guida-dm-ombre-risveglie.md) - Guida per il DM
 
 ### Risorse
@@ -132,11 +136,15 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [x] Definizione nome e branding
 - [x] Creazione ambientazione dark fantasy
 - [x] Sistema di gioco completo
-- [x] Bestiario originale (20+ mostri)
+- [x] Bestiario originale (25+ mostri, livelli 1-20)
 - [x] One-shot di playtest
 - [x] Seconda avventura (livelli 4-6)
+- [x] Terza avventura (livelli 7-10)
 - [x] Sottoclassi per tutte le classi
 - [x] Artefatti magici
+- [x] Sistema di fazioni e reputazione
+- [x] Sistema di crafting
+- [x] Guida per giocatori avanzati
 - [ ] Prima campagna completa
 - [ ] Generatore di personaggi online
 - [ ] App mobile per Shadowbound
