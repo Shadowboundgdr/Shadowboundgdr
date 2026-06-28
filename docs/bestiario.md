@@ -127,8 +127,8 @@
 
 *Stregone non-morto che ha sfidato la morte.*
 
-- **CR**: TBD (boss di alto livello)
-- **HP**: TBD
+- **CR**: 15 (13,000 XP)
+- **HP**: 135
 - **AC**: 17 (armatura naturale)
 - **Velocità**: 9 m
 - **FOR**: 11 (+0), **DES**: 16 (+3), **COS**: 16 (+3), **INT**: 20 (+5), **SAG**: 14 (+2), **CAR**: 16 (+3)
@@ -137,13 +137,14 @@
 - **Condizioni**: Immune a charmed, esaustione, frightened, paralizzato, petrificato, avvelenato
 
 **Azioni**:
-- **Paralizzante Tocco**: DC 18 Constitution save o paralisi per 1 minuto
+- **Paralizzante Tocco**: +10, gittata 1,5 m, 3d6 danni necrotici + DC 18 Constitution save o paralisi per 1 minuto
 - **Disrupt Life**: Ogni creature entro 6 m deve fare DC 18 Constitution save o subisce 4d10 danni necrotici
-- **Lancio Incantesimi**: Può lanciare incantesimi come mago di alto livello
+- **Lancio Incantesimi**: Può lanciare incantesimi come mago di livello 15
 
 **Abilità**:
 - **Azioni Leggendarie**: 3 azioni leggendarie per turno
 - **Rigenerazione**: Se distrutto, rinasce se il suo phylactery è intatto
+- **Resistenza Magica**: Vantaggio ai save contro incantesimi
 
 ---
 
@@ -332,8 +333,8 @@
 
 *Angelo che è caduto in disgrazia.*
 
-- **CR**: TBD (boss di alto livello)
-- **HP**: TBD
+- **CR**: 14 (11,500 XP)
+- **HP**: 180
 - **AC**: 19 (armatura naturale)
 - **Velocità**: 12 m, volo 18 m
 - **FOR**: 18 (+4), **DES**: 18 (+4), **COS**: 18 (+4), **INT**: 16 (+3), **SAG**: 16 (+3), **CAR**: 18 (+4)
@@ -342,9 +343,9 @@
 
 **Azioni**:
 - **Multiattack**: Tre attacchi con spada fiammeggiante
-- **Spada Fiammeggiante**: +8, 2d8+4 danni taglienti + 1d8 danni di fuoco
-- **Ira Divina**: DC 18 Dexterity save o 4d10 danni radianti
-- **Lancio Incantesimi**: Può lanciare incantesimi come chierico di alto livello
+- **Spada Fiammeggiante**: +12, 2d8+4 danni taglienti + 1d8 danni di fuoco
+- **Ira Divina**: DC 20 Dexterity save o 4d10 danni radianti
+- **Lancio Incantesimi**: Può lanciare incantesimi come chierico di livello 14
 
 **Abilità**:
 - **Azioni Leggendarie**: 3 azioni leggendarie per turno
@@ -398,6 +399,58 @@
 **Abilità**:
 - **Resistenza Magica**: Vantaggio ai save contro incantesimi
 - **Immunità Magica**: Immune a danni da incantesimi di 1°-5° livello
+
+---
+
+### Drago dell'Ombra (Shadow Dragon)
+
+*Drago antico che vive nelle profondità delle ombre.*
+
+- **CR**: 17 (18,000 XP)
+- **HP**: 230
+- **AC**: 21 (armatura naturale)
+- **Velocità**: 12 m, volo 24 m
+- **FOR**: 23 (+6), **DES**: 10 (+0), **COS**: 21 (+5), **INT**: 14 (+2), **SAG**: 15 (+2), **CAR**: 17 (+2)
+- **Resistenze**: Danninon magici, necrotico
+- **Immunità**: Veleno, danni da luce
+- **Condizioni**: Immune a charmed, frightened, paralizzato, petrificato
+
+**Azioni**:
+- **Multiattack**: Tre attacchi con artigli o uno con morso
+- **Morso**: +12, 2d10+6 danni perforanti + 2d6 danni necrotici
+- **Artigli**: +12, 2d6+6 danni taglienti + 1d6 danni necrotici
+- **Respiro dell'Ombra**: DC 20 Dexterity save o 10d6 danni necrotici (una volta per 3 turni)
+
+**Abilità**:
+- **Leggendarie**: 3 azioni leggendarie per turno
+- **Resistenza Magica**: Vantaggio ai save contro incantesimi
+- **Visione nel Buio**: 36 m
+
+---
+
+### Behemoth dell'Ombra (Shadow Behemoth)
+
+*Bestia colossale nata dalle ombre più profonde.*
+
+- **CR**: 18 (20,000 XP)
+- **HP**: 280
+- **AC**: 20 (armatura naturale)
+- **Velocità**: 9 m
+- **FOR**: 26 (+8), **DES**: 8 (-1), **COS**: 24 (+7), **INT**: 6 (-2), **SAG**: 10 (+0), **CAR**: 7 (-2)
+- **Resistenze**: Danninon magici, necrotico
+- **Immunità**: Veleno, danni da luce
+- **Condizioni**: Immune a charmed, frightened, paralizzato, petrificato
+
+**Azioni**:
+- **Multiattack**: Tre attacchi con zanna o uno con schiacciamento
+- **Zanna**: +14, 3d8+8 danni perforanti + 2d6 danni necrotici
+- **Schiacciamento**: +14, 4d12+8 danni contusivi + DC 22 Strength save o afferrato
+- **Urlo dell'Oblio**: DC 20 Wisdom save o 4d10 danni psionici (una volta per giorno)
+
+**Abilità**:
+- **Leggendarie**: 3 azioni leggendarie per turno
+- **Resistenza Magica**: Vantaggio ai save contro incantesimi
+- **Immunità Magica**: Immune a danni da incantesimi di 1°-6° livello
 
 ---
 
@@ -468,6 +521,34 @@
 | 8 | 2 Servitori del Vuoto + 1 Guardiano di Pietra |
 | 9 | 1 Lich (debole) + 1 Golem di Ombra |
 | 10 | 1 Angelo Caduto (debole) + 1 Golem di Ombra |
+
+### Per Livello 11-15
+
+| d10 | Encounter |
+|-----|----------|
+| 1-2 | 1 Lich + 2d4 Spettri + 1 Golem di Ombra |
+| 3 | 1 Angelo Caduto + 2d4 Servitori del Vuoto |
+| 4 | 2 Golem di Ombra + 2d4 Spettri |
+| 5 | 1 Drago dell'Ombra (giovane) + 2d4 Ombre |
+| 6 | 1 Behemoth dell'Ombra (debole) + 2d4 Guardiani di Pietra |
+| 7 | 1 Lich + 1 Angelo Caduto (debole) |
+| 8 | 2 Servitori del Vuoto + 1 Golem di Ferro |
+| 9 | 1 Drago dell'Ombra (giovane) + 1 Golem di Ombra |
+| 10 | 1 Behemoth dell'Ombra (debole) + 1 Lich (debole) |
+
+### Per Livello 16-20
+
+| d10 | Encounter |
+|-----|----------|
+| 1-2 | 1 Lich + 1 Angelo Caduto + 2d4 Spettri |
+| 3 | 1 Drago dell'Ombra (adulto) + 2d4 Golem di Ombra |
+| 4 | 1 Behemoth dell'Ombra + 2d4 Servitori del Vuoto |
+| 5 | 2 Lich (deboli) + 1 Golem di Ferro |
+| 6 | 1 Angelo Caduto + 1 Drago dell'Ombra (giovane) |
+| 7 | 1 Behemoth dell'Ombra + 1 Golem di Ombra |
+| 8 | 2 Drago dell'Ombra (giovani) + 2d4 Spettri |
+| 9 | 1 Lich + 1 Behemoth dell'Ombra (debole) |
+| 10 | 1 Drago dell'Ombra (adulto) + 1 Angelo Caduto + 1 Golem di Ferro |
 
 ---
 
