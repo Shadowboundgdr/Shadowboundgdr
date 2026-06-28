@@ -90,13 +90,25 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 
 ## 📚 Documentazione
 
+### Regolamento
 - [Sistema di Gioco](docs/sistema-gioco.md) - Regolamento derivato da D&D 5.2.1 SRD con modifiche originali
 - [Manuale del Giocatore](docs/manuale-giocatore.md) - Regolamento completo per i giocatori
 - [Manuale del DM](docs/manuale-dm.md) - Guida per chi narrare
+- [Sottoclassi](docs/sottoclassi.md) - Sottoclassi per tutte le classi
+- [Artefatti Magici](docs/artefatti.md) - Oggetti magici di Shadowbound
+
+### Ambientazione
 - [Ambientazione](docs/ambientazione.md) - Il mondo di Umbra
 - [Bestiario](docs/bestiario.md) - Mostri e creature
+
+### Avventure
+- [Ombre Risveglie](avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
+- [La Cripta dell'Eco Perduto](avventure/seconda-avventura.md) - Avventura per livelli 4-6
+- [Guida DM - Ombre Risveglie](avventure/guida-dm-ombre-risveglie.md) - Guida per il DM
+
+### Risorse
 - [Guida Rapida](docs/guida-rapida.md) - Guida per nuovi giocatori
-- [Avventure](avventure/) - Moduli pronti all'uso
+- [Personaggi Pre-generati](resources/personaggi-pregenerati/) - Schede pronte all'uso
 
 ---
 
@@ -119,10 +131,15 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [x] Struttura base del progetto
 - [x] Definizione nome e branding
 - [x] Creazione ambientazione dark fantasy
+- [x] Sistema di gioco completo
+- [x] Bestiario originale (20+ mostri)
 - [x] One-shot di playtest
-- [ ] Sistema di gioco completo
-- [ ] Bestiario originale
+- [x] Seconda avventura (livelli 4-6)
+- [x] Sottoclassi per tutte le classi
+- [x] Artefatti magici
 - [ ] Prima campagna completa
+- [ ] Generatore di personaggi online
+- [ ] App mobile per Shadowbound
 
 ---
 
