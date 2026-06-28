@@ -102,7 +102,9 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 
 ### Ambientazione
 - [Ambientazione](docs/ambientazione.md) - Il mondo di Umbra
-- [Bestiario](docs/bestiario.md) - Mostri e creature
+- [Bestiario](docs/bestiario.md) - Mostri e creature (25+ mostri, livelli 1-20)
+- [Razze](docs/razze.md) - Razze e sottorazze di Umbra
+- [Deità](docs/deita.md) - Pantheon e domini divini
 
 ### Avventure
 - [Ombre Risveglie](avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
@@ -112,7 +114,7 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 
 ### Risorse
 - [Guida Rapida](docs/guida-rapida.md) - Guida per nuovi giocatori
-- [Personaggi Pre-generati](resources/personaggi-pregenerati/) - Schede pronte all'uso
+- [Personaggi Pre-generati](resources/personaggi-pregenerati/) - Schede pronte all'uso (livelli 1 e 5)
 
 ---
 
@@ -140,12 +142,17 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [x] One-shot di playtest
 - [x] Seconda avventura (livelli 4-6)
 - [x] Terza avventura (livelli 7-10)
+- [x] Campagna completa (livelli 1-10)
 - [x] Sottoclassi per tutte le classi
 - [x] Artefatti magici
 - [x] Sistema di fazioni e reputazione
 - [x] Sistema di crafting
+- [x] Sistema di economia
+- [x] Sistema di malattie e corruzione
+- [x] Razze e sottorazze
+- [x] Deità e domini
 - [x] Guida per giocatori avanzati
-- [ ] Prima campagna completa
+- [x] Personaggi pre-generati (livelli 1 e 5)
 - [ ] Generatore di personaggi online
 - [ ] App mobile per Shadowbound
 
@@ -169,4 +176,5 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 
 **Made with ❤️ by the Italian TTRPG Community**
 
+*Ombre chiamano ombre. Legami si spezzano. Il destino è tuo.*
 *Ombre chiamano ombre. Legami si spezzano. Il destino è tuo.*
