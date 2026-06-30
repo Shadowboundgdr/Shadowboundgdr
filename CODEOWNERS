@@ -1,0 +1,38 @@
+# Code Owners per Shadowbound
+
+# Maintainer principale
+* @alisio85
+
+# Documentazione
+docs/ @alisio85
+
+# Regolamento
+docs/sistema-gioco.md @alisio85
+docs/manuale-giocatore.md @alisio85
+docs/manuale-dm.md @alisio85
+
+# Ambientazione
+docs/ambientazione.md @alisio85
+docs/razze.md @alisio85
+docs/deita.md @alisio85
+
+# Bestiario
+docs/bestiario.md @alisio85
+
+# Avventure
+avventure/ @alisio85
+
+# Personaggi pre-generati
+resources/personaggi-pregenerati/ @alisio85
+
+# Community
+docs/community/ @alisio85
+
+# Configurazione GitHub
+.github/ @alisio85
+
+# README
+README.md @alisio85
+
+# Licenza
+LICENSE @alisio85

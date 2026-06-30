@@ -213,6 +213,8 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [ ] Sistema di newsletter attivo
 - [ ] Sistema di badge implementato
 - [ ] Eventi di gioco della community regolari
+- [ ] Configurazione GitHub Projects per gestione comunità
+- [ ] Attivazione GitHub Wiki per documentazione collaborativa
 
 ---
 
@@ -230,6 +232,12 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - **Email**: [coming soon]
 - **GitHub**: [@alisio85](https://github.com/alisio85)
 
+---
+
+**Made with ❤️ by the Italian TTRPG Community**
+
+*Ombre chiamano ombre. Legami si spezzano. Il destino è tuo.*
+*Ombre chiamano ombre. Legami si spezzano. Il destino è tuo.*
 ---
 
 **Made with ❤️ by the Italian TTRPG Community**
