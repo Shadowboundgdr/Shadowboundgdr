@@ -12,41 +12,43 @@ title: Regolamento
 .badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
 .badge-green { background: #d4edda; color: #155724; }
 .badge-red { background: #f8d7da; color: #721c24; }
-.badge-blue { background: #cce5ff; color: #004085; }
+.cat-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.cat-table th, .cat-table td { border: 1px solid #e0e0e0; padding: 0.5rem; text-align: left; }
+.cat-table th { background: #1a1a2e; color: white; }
 </style>
 
 <div class="rules-hero">
   <h2>📜 Regolamento del Forum</h2>
-  <p>Manteniamo un ambiente sano, rispettoso e costruttivo per tutta la community</p>
+  <p>Manteniamo un ambiente sano, rispettoso e costruttivo</p>
 </div>
 
 ## Principi Fondamentali
 
 <div class="rule-block">
   <h3><span class="badge badge-green">★</span> Rispetto reciproco</h3>
-  <p>Tratta tutti con cortesia e dignità. Non sono tollerati insulti, discriminazioni o molestie.</p>
+  <p>Tratta tutti con cortesia e dignità. Vietati insulti, discriminazioni e molestie.</p>
 </div>
 
 <div class="rule-block">
   <h3><span class="badge badge-green">★</span> Costruttività</h3>
-  <p>Contribuisci in modo utile. Critiche costruttive e feedback dettagliati sono benvenuti.</p>
+  <p>Critiche costruttive e feedback dettagliati sono benvenuti; trollaggio no.</p>
 </div>
 
 <div class="rule-block">
   <h3><span class="badge badge-green">★</span> Trasparenza</h3>
-  <p>Se sei un maintainer o hai conflitti di interesse, dichiaralo apertamente.</p>
+  <p>Dichiara eventuali conflitti di interesse (maintainer, contributor).</p>
 </div>
 
 <div class="rule-block">
   <h3><span class="badge badge-green">★</span> Pazienza</h3>
-  <p>Non tutti rispondono immediatamente. Aspetta almeno 48 ore prima di sollecitare.</p>
+  <p>Aspetta almeno 48 ore prima di sollecitare una risposta.</p>
 </div>
 
 ## Cosa Non Fare
 
 <div class="rule-block">
   <h3><span class="badge badge-red">✕</span> Spam</h3>
-  <p>Nessuna auto-promozione eccessiva o contenuti irrilevanti.</p>
+  <p>Niente auto-promozione eccessiva o contenuti irrilevanti.</p>
 </div>
 
 <div class="rule-block">
@@ -56,7 +58,7 @@ title: Regolamento
 
 <div class="rule-block">
   <h3><span class="badge badge-red">✕</span> Doppie discussioni</h3>
-  <p>Cerca prima di aprire una nuova discussione: il tuo argomento potrebbe esistere già.</p>
+  <p>Cerca prima di aprire una nuova discussione: potrebbe esistere già.</p>
 </div>
 
 <div class="rule-block">
@@ -64,14 +66,27 @@ title: Regolamento
   <p>Discussioni accese sì, attacchi personali no.</p>
 </div>
 
+## Sezioni e Label
+
+Usa le label per categorizzare le tue discussioni:
+
+<table class="cat-table">
+  <tr><th>Sezione</th><th>Label</th><th>Descrizione</th></tr>
+  <tr><td>🎮 Sessioni di Gioco</td><td><code>🎮 Sessioni di Gioco</code></td><td>Sessioni, storie epiche, consigli di gioco</td></tr>
+  <tr><td>📝 Proposte</td><td><code>📝 Proposte</code></td><td>Nuove idee per regole, classi, mostri</td></tr>
+  <tr><td>🤔 Domande</td><td><code>🤔 Domande</code></td><td>Chiarimenti e aiuto su regole e meccaniche</td></tr>
+  <tr><td>🎨 Creazioni</td><td><code>🎨 Creazioni</code></td><td>Personaggi, avventure, mappe, artefatti</td></tr>
+  <tr><td>📚 Strategie</td><td><code>📚 Strategie</code></td><td>Build, tattiche, ottimizzazione</td></tr>
+  <tr><td>📖 Storytelling</td><td><code>📖 Storytelling</code></td><td>Trame, personaggi, tecniche narrative</td></tr>
+</table>
+
 ## Moderazione
 
-I maintainer del progetto si riservano il diritto di:
-
-- **Spostare** discussioni nella categoria appropriata
+I maintainer possono:
+- **Spostare** discussioni nella sezione corretta
 - **Chiudere** discussioni duplicate o fuori tema
-- **Eliminare** commenti offensivi o inappropriati
-- **Sospendere** utenti che violano ripetutamente le regole
+- **Eliminare** commenti offensivi
+- **Sospendere** utenti che violano le regole
 
 ## Riferimenti
 

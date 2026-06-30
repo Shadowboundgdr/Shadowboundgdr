@@ -1,11 +1,12 @@
 title: "📝 "
+labels: ["📝 Proposte"]
 body:
   - type: markdown
     attributes:
       value: |
         ## 📝 Proposta o Suggerimento
 
-        Hai un'idea per migliorare Shadowbound? Proponi nuove regole, classi, mostri, avventure o qualsiasi altra cosa!
+        Hai un'idea per migliorare Shadowbound? Proponi nuove regole, classi, mostri, avventure!
 
   - type: textarea
     attributes:
@@ -26,5 +27,5 @@ body:
   - type: textarea
     attributes:
       label: "📋 Dettagli aggiuntivi"
-      description: "Esempi, casi d'uso, riferimenti ad altre sezioni del regolamento."
+      description: "Esempi, casi d'uso, riferimenti al regolamento."
       placeholder: "Opzionale: aggiungi dettagli per chiarire la tua proposta."

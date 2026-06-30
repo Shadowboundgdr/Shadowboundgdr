@@ -1,11 +1,12 @@
 title: "🤔 "
+labels: ["🤔 Domande"]
 body:
   - type: markdown
     attributes:
       value: |
         ## 🤔 Domanda o Richiesta di Aiuto
 
-        Hai un dubbio sul regolamento, una meccanica di gioco o vuoi un chiarimento? Siamo qui per aiutarti!
+        Hai un dubbio sul regolamento o una meccanica? Siamo qui per aiutarti!
 
   - type: textarea
     attributes:
@@ -18,7 +19,7 @@ body:
   - type: textarea
     attributes:
       label: "📖 Contesto"
-      description: "Fornisci più contesto possibile (riferimenti a pagine del regolamento, situazione di gioco, ecc.)."
+      description: "Fornisci più contesto possibile."
       placeholder: "In che situazione ti trovi? A quali regole ti riferisci?"
 
   - type: dropdown
