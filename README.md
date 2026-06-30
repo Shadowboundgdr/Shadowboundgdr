@@ -107,14 +107,17 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 - [Deità](docs/deita.md) - Pantheon e domini divini
 
 ### Avventure
-- [Ombre Risveglie](avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
-- [La Cripta dell'Eco Perduto](avventure/seconda-avventura.md) - Avventura per livelli 4-6
-- [Il Trono dell'Oblio](avventure/terza-avventura.md) - Avventura epica per livelli 7-10
-- [Guida DM - Ombre Risveglie](avventure/guida-dm-ombre-risveglie.md) - Guida per il DM
+- [Ombre Risveglie](docs/avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
+
+  - [La Cripta dell'Eco Perduto](docs/avventure/seconda-avventura.md) - Avventura per livelli 4-6
+
+  - [Il Trono dell'Oblio](docs/avventure/terza-avventura.md) - Avventura epica per livelli 7-10
+
+  - [Guida DM - Ombre Risveglie](docs/avventure/guida-dm-ombre-risveglie.md) - Guida per il DM
 
 ### Risorse
 - [Guida Rapida](docs/guida-rapida.md) - Guida per nuovi giocatori
-- [Personaggi Pre-generati](resources/personaggi-pregenerati/) - Schede pronte all'uso (livelli 1 e 5)
+- [Personaggi Pre-generati](docs/resources/personaggi-pregenerati/) - Schede pronte all'uso (livelli 1 e 5)
 
 ### Community
 - [Guida per Condividere Avventure](docs/community/guida-condivisione-avventure.md) - Come condividere le tue avventure

@@ -24,5 +24,10 @@ github_username: alisio85
 # Navigation
 header_pages:
   - index.md
+  - regole/index.md
+  - ambientazione/index.md
+  - avventure/index.md
+  - risorse/index.md
   - forum/index.md
+  - community/index.md
   - admin/index.md

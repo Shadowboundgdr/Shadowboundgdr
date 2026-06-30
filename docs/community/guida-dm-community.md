@@ -44,9 +44,11 @@ Prima di iniziare a DMare:
 
 Inizia con un'avventura pronta:
 
-- [Ombre Risveglie](../../avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
-- [La Cripta dell'Eco Perduto](../../avventure/seconda-avventura.md) - Avventura per livelli 4-6
-- [Il Trono dell'Oblio](../../avventure/terza-avventura.md) - Avventura epica per livelli 7-10
+- [Ombre Risveglie](../avventure/one-shot-ombre-risveglie.md) - One-shot per livelli 1-3
+
+  - [La Cripta dell'Eco Perduto](../avventure/seconda-avventura.md) - Avventura per livelli 4-6
+
+  - [Il Trono dell'Oblio](../avventure/terza-avventura.md) - Avventura epica per livelli 7-10
 
 Oppure crea la tua avventura usando la [Guida per Condividere Avventure](guida-condivisione-avventure.md).
 
