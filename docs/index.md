@@ -37,7 +37,7 @@ Benvenuto nel sito ufficiale di Shadowbound, un gioco di ruolo da tavolo dark fa
 
 ## 💬 Community e Forum
 
-- [Forum](forum/) — Discuti con la community
+- [Forum](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions) — Discuti con la community su GitHub Discussions
 - [Community](community/) — Guide e risorse
 
 ---

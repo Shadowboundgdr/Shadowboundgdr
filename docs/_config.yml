@@ -20,3 +20,6 @@ kramdown:
 # Social media
 twitter_username: shadowbound_ttrpg
 github_username: alisio85
+
+# Navigation links (used by _includes/header.html)
+forum_url: https://github.com/Shadowboundgdr/Shadowboundgdr/discussions
