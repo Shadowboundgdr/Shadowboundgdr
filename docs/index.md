@@ -25,6 +25,7 @@ title: Home
 </style>
 
 <div class="hero">
+  <img src="brand/logo-icon.svg" alt="Shadowbound" style="width:120px;height:120px;margin-bottom:1rem;border-radius:50%;background:#0D0D0D;padding:4px;">
   <h1>🏰 Shadowbound GDR</h1>
   <p>Portale completo della community — regole, ambientazione, avventure, forum, risorse</p>
   <span class="hero-badge">✨ Tutto il progetto a portata di clic</span>

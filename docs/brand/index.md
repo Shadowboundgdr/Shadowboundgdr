@@ -19,6 +19,7 @@ title: Brand
 </style>
 
 <div class="page-h">
+  <img src="logo-icon.svg" alt="Shadowbound" style="width:100px;height:100px;margin-bottom:0.5rem;border-radius:50%;background:#0D0D0D;padding:3px;">
   <h2>🎨 Brand Shadowbound</h2>
   <p>Identità visiva, colori, tipografia e linee guida del marchio</p>
 </div>

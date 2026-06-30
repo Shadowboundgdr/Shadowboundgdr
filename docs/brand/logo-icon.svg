@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0D0D"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <linearGradient id="moonGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#e0d4f0"/>
+      <stop offset="100%" stop-color="#c0b0d8"/>
+    </linearGradient>
+    <linearGradient id="swordGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e0d4f0"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c0b0d8"/>
+    </linearGradient>
+    <linearGradient id="orbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="50%" stop-color="#ff6b81"/>
+      <stop offset="100%" stop-color="#c73050"/>
+    </linearGradient>
+    <linearGradient id="shadowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1B4E"/>
+      <stop offset="50%" stop-color="#4a2d8a"/>
+      <stop offset="100%" stop-color="#2D1B4E"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1B4E" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4a2d8a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2D1B4E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadowDrop">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Outer glow ring -->
+  <circle cx="250" cy="250" r="198" fill="none" stroke="url(#ringGrad)" stroke-width="6" opacity="0.4" filter="url(#softGlow)"/>
+
+  <!-- Outer rings -->
+  <circle cx="250" cy="250" r="190" fill="none" stroke="#2D1B4E" stroke-width="2.5" opacity="0.8"/>
+  <circle cx="250" cy="250" r="180" fill="none" stroke="#4a2d8a" stroke-width="1" opacity="0.4"/>
+
+  <!-- Runic marks -->
+  <g stroke="#4a2d8a" stroke-width="1.5" opacity="0.5">
+    <line x1="250" y1="62" x2="250" y2="72"/>
+    <line x1="320" y1="68" x2="317" y2="78"/>
+    <line x1="380" y1="85" x2="374" y2="93"/>
+    <line x1="425" y1="118" x2="417" y2="122"/>
+    <line x1="455" y1="162" x2="445" y2="165"/>
+    <line x1="475" y1="215" x2="465" y2="217"/>
+    <line x1="482" y1="250" x2="472" y2="250"/>
+    <line x1="475" y1="285" x2="465" y2="283"/>
+    <line x1="455" y1="338" x2="445" y2="335"/>
+    <line x1="425" y1="382" x2="417" y2="378"/>
+    <line x1="380" y1="415" x2="374" y2="407"/>
+    <line x1="320" y1="432" x2="317" y2="422"/>
+    <line x1="250" y1="438" x2="250" y2="428"/>
+    <line x1="180" y1="432" x2="183" y2="422"/>
+    <line x1="120" y1="415" x2="126" y2="407"/>
+    <line x1="75" y1="382" x2="83" y2="378"/>
+    <line x1="45" y1="338" x2="55" y2="335"/>
+    <line x1="25" y1="285" x2="35" y2="283"/>
+    <line x1="18" y1="250" x2="28" y2="250"/>
+    <line x1="25" y1="215" x2="35" y2="217"/>
+    <line x1="45" y1="162" x2="55" y2="165"/>
+    <line x1="75" y1="118" x2="83" y2="122"/>
+    <line x1="120" y1="85" x2="126" y2="93"/>
+    <line x1="180" y1="68" x2="183" y2="78"/>
+  </g>
+
+  <!-- Diamond markers -->
+  <g fill="#4a2d8a" opacity="0.6">
+    <polygon points="250,58 254,66 250,74 246,66"/>
+    <polygon points="442,250 434,246 426,250 434,254"/>
+    <polygon points="250,442 254,434 250,426 246,434"/>
+    <polygon points="58,250 66,246 74,250 66,254"/>
+  </g>
+
+  <!-- Inner ring -->
+  <circle cx="250" cy="250" r="165" fill="#0D0D0D" stroke="#4a2d8a" stroke-width="1" opacity="0.3"/>
+
+  <!-- Crest background -->
+  <circle cx="250" cy="250" r="160" fill="url(#shadowGrad)" opacity="0.15"/>
+
+  <!-- Crescent moon -->
+  <g filter="url(#shadowDrop)">
+    <path d="M250 105 
+             A 110 110 0 1 1 250 395 
+             A 85 85 0 1 0 250 105 Z" 
+          fill="url(#moonGrad)" opacity="0.95"/>
+  </g>
+
+  <!-- Shadow essence -->
+  <path d="M250 155 
+           A 68 68 0 0 0 250 345 
+           A 48 48 0 0 1 250 155 Z" 
+        fill="#1a1a2e" opacity="0.4"/>
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="295" cy="185" r="2"/>
+    <circle cx="320" cy="250" r="1.5"/>
+    <circle cx="290" cy="315" r="2"/>
+    <circle cx="308" cy="220" r="1.2"/>
+    <circle cx="300" cy="280" r="1.2"/>
+  </g>
+
+  <!-- Central sword -->
+  <g filter="url(#shadowDrop)">
+    <path d="M246 120 L246 310 Q246 318 250 323 Q254 318 254 310 L254 120 Z" 
+          fill="url(#swordGrad)" opacity="0.9"/>
+    <line x1="250" y1="125" x2="250" y2="310" stroke="#ffffff" stroke-width="0.8" opacity="0.3"/>
+    <rect x="226" y="310" width="48" height="10" rx="2.5" fill="#2D1B4E" stroke="#4a2d8a" stroke-width="0.8"/>
+    <circle cx="234" cy="315" r="2.5" fill="url(#orbGrad)" filter="url(#glow)"/>
+    <circle cx="266" cy="315" r="2.5" fill="url(#orbGrad)" filter="url(#glow)"/>
+    <rect x="246" y="320" width="8" height="28" rx="1.5" fill="#2D1B4E"/>
+    <line x1="246" y1="326" x2="254" y2="326" stroke="#4a2d8a" stroke-width="0.8"/>
+    <line x1="246" y1="332" x2="254" y2="332" stroke="#4a2d8a" stroke-width="0.8"/>
+    <line x1="246" y1="338" x2="254" y2="338" stroke="#4a2d8a" stroke-width="0.8"/>
+    <circle cx="250" cy="354" r="6" fill="#2D1B4E" stroke="#4a2d8a" stroke-width="0.8"/>
+    <circle cx="250" cy="354" r="2.5" fill="url(#orbGrad)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Decorative arcs -->
+  <path d="M220 160 Q195 250 220 340" fill="none" stroke="#4a2d8a" stroke-width="1.2" opacity="0.35"/>
+  <path d="M280 160 Q305 250 280 340" fill="none" stroke="#4a2d8a" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Top orb -->
+  <circle cx="250" cy="105" r="5" fill="url(#orbGrad)" filter="url(#softGlow)"/>
+  <g stroke="url(#orbGrad)" stroke-width="1.2" fill="none" opacity="0.5" filter="url(#glow)">
+    <path d="M250 96 Q247 88 250 83 Q253 88 250 96"/>
+    <path d="M256 99 Q260 93 262 88 Q258 94 256 99"/>
+    <path d="M244 99 Q240 93 238 88 Q242 94 244 99"/>
+  </g>
+
+  <!-- Side wings -->
+  <g stroke="#4a2d8a" stroke-width="1.2" fill="none" opacity="0.35">
+    <path d="M190 230 Q160 250 190 295"/>
+    <path d="M310 230 Q340 250 310 295"/>
+  </g>
+
+  <!-- Footer diamond -->
+  <g opacity="0.4" filter="url(#glow)">
+    <polygon points="250,390 255,398 250,406 245,398" fill="#e94560"/>
+  </g>
+</svg>

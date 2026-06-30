@@ -2,6 +2,18 @@
 
 > *"Il logo rappresenta l'identità di Shadowbound. Deve essere riconoscibile, memorabile e riflettere il tema dark fantasy."*
 
+## 📁 File Disponibili
+
+| File | Descrizione |
+|------|-------------|
+| [`logo.svg`](logo.svg) | Logo completo con testo (600×700) |
+| [`logo-icon.svg`](logo-icon.svg) | Solo emblema/icona (500×500) |
+| [`logo-placeholder.svg`](logo-placeholder.svg) | Placeholder (alias per logo.svg) |
+
+**Anteprima:**
+
+![Logo Shadowbound](logo-icon.svg "Logo Shadowbound")
+
 ---
 
 ## 📋 Sommario

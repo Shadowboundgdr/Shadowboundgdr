@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
   <defs>
+    <!-- Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0D0D0D"/>
       <stop offset="50%" stop-color="#1a1a2e"/>
@@ -53,16 +54,17 @@
     </filter>
   </defs>
 
+  <!-- Background -->
   <rect width="600" height="700" fill="url(#bgGrad)"/>
 
   <!-- Outer ring glow -->
   <circle cx="300" cy="300" r="248" fill="none" stroke="url(#ringGrad)" stroke-width="8" opacity="0.4" filter="url(#softGlow)"/>
 
-  <!-- Outer rings -->
+  <!-- Outer decorative ring with runic pattern -->
   <circle cx="300" cy="300" r="240" fill="none" stroke="#2D1B4E" stroke-width="3" opacity="0.8"/>
   <circle cx="300" cy="300" r="230" fill="none" stroke="#4a2d8a" stroke-width="1" opacity="0.5"/>
 
-  <!-- Runic marks -->
+  <!-- Runic marks on outer ring -->
   <g stroke="#4a2d8a" stroke-width="1.5" opacity="0.6">
     <line x1="300" y1="62" x2="300" y2="72"/>
     <line x1="370" y1="68" x2="367" y2="78"/>
@@ -90,7 +92,7 @@
     <line x1="230" y1="68" x2="233" y2="78"/>
   </g>
 
-  <!-- Diamond markers -->
+  <!-- Runic diamond symbols at cardinal points -->
   <g fill="#4a2d8a" opacity="0.7">
     <polygon points="300,55 305,65 300,75 295,65"/>
     <polygon points="545,300 535,295 525,300 535,305"/>
@@ -98,16 +100,27 @@
     <polygon points="55,300 65,295 75,300 65,305"/>
   </g>
 
+  <!-- Second ring -->
   <circle cx="300" cy="300" r="210" fill="#0D0D0D" stroke="#4a2d8a" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Main crest background -->
   <circle cx="300" cy="300" r="205" fill="url(#shadowGrad)" opacity="0.15"/>
 
-  <!-- Crescent moon -->
+  <!-- Shadow crescent moon - main symbol -->
   <g filter="url(#shadowDrop)">
-    <path d="M300 115 A 130 130 0 1 1 300 485 A 100 100 0 1 0 300 115 Z" fill="url(#moonGrad)" opacity="0.95"/>
+    <path d="M300 115 
+             A 130 130 0 1 1 300 485 
+             A 100 100 0 1 0 300 115 Z" 
+          fill="url(#moonGrad)" opacity="0.95"/>
   </g>
 
-  <path d="M300 175 A 85 85 0 0 0 300 425 A 60 60 0 0 1 300 175 Z" fill="#1a1a2e" opacity="0.4"/>
+  <!-- Shadow essence inside moon -->
+  <path d="M300 175 
+           A 85 85 0 0 0 300 425 
+           A 60 60 0 0 1 300 175 Z" 
+        fill="#1a1a2e" opacity="0.4"/>
 
+  <!-- Stars inside the moon -->
   <g fill="#ffffff" opacity="0.8">
     <circle cx="350" cy="220" r="2.5"/>
     <circle cx="380" cy="300" r="2"/>
@@ -118,49 +131,68 @@
 
   <!-- Central sword -->
   <g filter="url(#shadowDrop)">
-    <path d="M296 140 L296 370 Q296 380 300 385 Q304 380 304 370 L304 140 Z" fill="url(#swordGrad)" opacity="0.9"/>
+    <!-- Blade -->
+    <path d="M296 140 L296 370 Q296 380 300 385 Q304 380 304 370 L304 140 Z" 
+          fill="url(#swordGrad)" opacity="0.9"/>
+    <!-- Blade highlight -->
     <line x1="300" y1="145" x2="300" y2="370" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+    <!-- Crossguard -->
     <rect x="270" y="370" width="60" height="12" rx="3" fill="#2D1B4E" stroke="#4a2d8a" stroke-width="1"/>
+    <!-- Crossguard gems -->
     <circle cx="280" cy="376" r="3" fill="url(#orbGrad)" filter="url(#glow)"/>
     <circle cx="320" cy="376" r="3" fill="url(#orbGrad)" filter="url(#glow)"/>
+    <!-- Grip -->
     <rect x="293" y="382" width="14" height="35" rx="2" fill="#2D1B4E"/>
     <line x1="293" y1="390" x2="307" y2="390" stroke="#4a2d8a" stroke-width="1"/>
     <line x1="293" y1="398" x2="307" y2="398" stroke="#4a2d8a" stroke-width="1"/>
     <line x1="293" y1="406" x2="307" y2="406" stroke="#4a2d8a" stroke-width="1"/>
+    <!-- Pommel -->
     <circle cx="300" cy="422" r="8" fill="#2D1B4E" stroke="#4a2d8a" stroke-width="1"/>
     <circle cx="300" cy="422" r="3" fill="url(#orbGrad)" filter="url(#glow)"/>
   </g>
 
+  <!-- Decorative arc behind sword -->
   <path d="M260 160 Q230 280 260 400" fill="none" stroke="#4a2d8a" stroke-width="1.5" opacity="0.4"/>
   <path d="M340 160 Q370 280 340 400" fill="none" stroke="#4a2d8a" stroke-width="1.5" opacity="0.4"/>
 
+  <!-- Runic arc left -->
   <path d="M240 180 Q210 280 240 380" fill="none" stroke="#4a2d8a" stroke-width="1" opacity="0.3" stroke-dasharray="3,5"/>
   <path d="M360 180 Q390 280 360 380" fill="none" stroke="#4a2d8a" stroke-width="1" opacity="0.3" stroke-dasharray="3,5"/>
 
+  <!-- Orb at top of crest -->
   <circle cx="300" cy="120" r="6" fill="url(#orbGrad)" filter="url(#softGlow)"/>
 
+  <!-- Small flame/energy wisps around orb -->
   <g stroke="url(#orbGrad)" stroke-width="1.5" fill="none" opacity="0.6" filter="url(#glow)">
     <path d="M300 110 Q295 100 300 95 Q305 100 300 110"/>
     <path d="M308 114 Q314 106 316 100 Q310 108 308 114"/>
     <path d="M292 114 Q286 106 284 100 Q290 108 292 114"/>
   </g>
 
+  <!-- Side decorations - wings/arcs -->
   <g stroke="#4a2d8a" stroke-width="1.5" fill="none" opacity="0.4">
     <path d="M200 250 Q160 280 200 350"/>
     <path d="M400 250 Q440 280 400 350"/>
   </g>
 
-  <!-- Title -->
-  <text x="300" y="520" text-anchor="middle" font-family="Cinzel,'Times New Roman',Georgia,serif" font-size="38" font-weight="bold" fill="#e0d4f0" letter-spacing="0.15em" filter="url(#shadowDrop)">SHADOWBOUND</text>
+  <!-- Title text -->
+  <text x="300" y="520" text-anchor="middle" font-family="Cinzel, 'Times New Roman', Georgia, serif" font-size="38" font-weight="bold" fill="#e0d4f0" letter-spacing="0.15em" filter="url(#shadowDrop)">
+    SHADOWBOUND
+  </text>
 
+  <!-- Decorative line under title -->
   <g opacity="0.5">
     <line x1="150" y1="535" x2="250" y2="535" stroke="#4a2d8a" stroke-width="1"/>
     <line x1="350" y1="535" x2="450" y2="535" stroke="#4a2d8a" stroke-width="1"/>
     <circle cx="300" cy="535" r="2" fill="#e94560" filter="url(#glow)"/>
   </g>
 
-  <text x="300" y="560" text-anchor="middle" font-family="'Times New Roman',Georgia,serif" font-size="16" fill="#4a2d8a" letter-spacing="0.3em" opacity="0.7">GDR DARK FANTASY</text>
+  <!-- Subtitle -->
+  <text x="300" y="560" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-size="16" fill="#4a2d8a" letter-spacing="0.3em" opacity="0.7">
+    GDR DARK FANTASY
+  </text>
 
+  <!-- Bottom decorative runes -->
   <g fill="#4a2d8a" opacity="0.3">
     <text x="200" y="590" font-family="serif" font-size="14">◈</text>
     <text x="250" y="590" font-family="serif" font-size="10">◇</text>
@@ -169,13 +201,23 @@
     <text x="400" y="590" font-family="serif" font-size="14">◈</text>
   </g>
 
+  <!-- Corner decorative elements -->
   <g stroke="#4a2d8a" stroke-width="1.5" fill="none" opacity="0.25">
-    <path d="M70 70 L100 70 L100 75"/><path d="M70 70 L70 100 L75 100"/>
-    <path d="M530 70 L500 70 L500 75"/><path d="M530 70 L530 100 L525 100"/>
-    <path d="M70 530 L100 530 L100 525"/><path d="M70 530 L70 500 L75 500"/>
-    <path d="M530 530 L500 530 L500 525"/><path d="M530 530 L530 500 L525 500"/>
+    <!-- Top left -->
+    <path d="M70 70 L100 70 L100 75"/>
+    <path d="M70 70 L70 100 L75 100"/>
+    <!-- Top right -->
+    <path d="M530 70 L500 70 L500 75"/>
+    <path d="M530 70 L530 100 L525 100"/>
+    <!-- Bottom left -->
+    <path d="M70 530 L100 530 L100 525"/>
+    <path d="M70 530 L70 500 L75 500"/>
+    <!-- Bottom right -->
+    <path d="M530 530 L500 530 L500 525"/>
+    <path d="M530 530 L530 500 L525 500"/>
   </g>
 
+  <!-- Small corner diamonds -->
   <g fill="#e94560" opacity="0.4" filter="url(#glow)">
     <polygon points="75,75 78,70 81,75 78,80"/>
     <polygon points="525,75 522,70 519,75 522,80"/>
