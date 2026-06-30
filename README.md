@@ -143,8 +143,8 @@ Shadowbound è un progetto community-driven! Unisciti a noi per:
 
 ### Canali Ufficiali
 
-- [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions) - Forum e discussioni
-- [GitHub Issues](https://github.com/alisio85/shadowbound/issues) - Bug report e richieste
+- [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions) - Forum e discussioni
+- [GitHub Issues](https://github.com/Shadowboundgdr/Shadowboundgdr/issues) - Bug report e richieste
 - [Discord](https://discord.gg/shadowbound) - Server Discord (coming soon)
 
 ### Come Contribuire

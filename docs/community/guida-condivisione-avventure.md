@@ -132,7 +132,7 @@ Ogni avventura deve includere:
 
 Usa il template "Invio Contenuto" per proporre la tua avventura:
 
-1. Vai su [Issues](https://github.com/alisio85/shadowbound/issues)
+1. Vai su [Issues](https://github.com/Shadowboundgdr/Shadowboundgdr/issues)
 2. Seleziona "Invio Contenuto"
 3. Compila il template
 4. Allega i file dell'avventura
@@ -141,7 +141,7 @@ Usa il template "Invio Contenuto" per proporre la tua avventura:
 
 Condividi la tua avventura nelle Discussioni:
 
-1. Vai su [Discussions](https://github.com/alisio85/shadowbound/discussions)
+1. Vai su [Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions)
 2. Crea una nuova discussione nella categoria "Creazioni della Community"
 3. Usa il template per avventure
 4. Condividi link alla tua issue se hai aperto una PR

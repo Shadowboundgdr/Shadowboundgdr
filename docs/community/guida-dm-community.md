@@ -54,7 +54,7 @@ Oppure crea la tua avventura usando la [Guida per Condividere Avventure](guida-c
 
 Trova giocatori interessati:
 
-- Cerca nelle [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions)
+- Cerca nelle [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions)
 - Unisciti al [Discord](#) (coming soon)
 - Chiedi agli amici
 - Organizza sessioni online o presenziali
@@ -88,8 +88,8 @@ Prepara la tua prima sessione:
 
 ### Risorse della Community
 
-- [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions) - Forum e discussioni
-- [GitHub Issues](https://github.com/alisio85/shadowbound/issues) - Bug report e richieste
+- [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions) - Forum e discussioni
+- [GitHub Issues](https://github.com/Shadowboundgdr/Shadowboundgdr/issues) - Bug report e richieste
 - [Discord](#) - Server Discord (coming soon)
 
 ---
@@ -107,7 +107,7 @@ Usa il [Template Sessione di Gioco](template-sessione-gioco.md) per documentare:
 - Statistiche
 - Note per il DM
 
-Pubblica nelle [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions) nella categoria "Sessioni di Gioco".
+Pubblica nelle [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions) nella categoria "Sessioni di Gioco".
 
 ### Condividi le Tue Avventure
 

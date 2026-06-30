@@ -131,9 +131,9 @@ Questo codice di condotta si applica a:
 
 ## 📚 Risorse Aggiuntive
 
-- [Diversity Statement](https://github.com/alisio85/shadowbound/blob/main/docs/DIVERSITY.md)
-- [Moderation Guidelines](https://github.com/alisio85/shadowbound/blob/main/docs/MODERATION.md)
-- [Inclusion Resources](https://github.com/alisio85/shadowbound/blob/main/docs/INCLUSION.md)
+- [Diversity Statement](https://github.com/Shadowboundgdr/Shadowboundgdr/blob/main/docs/DIVERSITY.md)
+- [Moderation Guidelines](https://github.com/Shadowboundgdr/Shadowboundgdr/blob/main/docs/MODERATION.md)
+- [Inclusion Resources](https://github.com/Shadowboundgdr/Shadowboundgdr/blob/main/docs/INCLUSION.md)
 
 ---
 

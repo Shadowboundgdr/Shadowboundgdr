@@ -54,7 +54,7 @@ Quando chiedi aiuto, fornisci:
 **Per**: Domande generali, discussioni, condivisione
 
 **Come usarlo**:
-1. Vai a [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions)
+1. Vai a [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions)
 2. Cerca se la domanda è già stata fatta
 3. Se non trovata, crea una nuova discussione
 4. Usa la categoria appropriata
@@ -66,7 +66,7 @@ Quando chiedi aiuto, fornisci:
 **Per**: Bug report, proposte di miglioramento
 
 **Come usarlo**:
-1. Vai a [GitHub Issues](https://github.com/alisio85/shadowbound/issues)
+1. Vai a [GitHub Issues](https://github.com/Shadowboundgdr/Shadowboundgdr/issues)
 2. Cerca se il bug è già stato segnalato
 3. Se non trovato, apri una nuova issue
 4. Usa il template appropriato
@@ -148,7 +148,7 @@ R: Ci sono avventure ufficiali nella sezione "Avventure" e avventure della commu
 
 ### Community
 
-- [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions) - Forum e discussioni
+- [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions) - Forum e discussioni
 - [Discord](https://discord.gg/shadowbound) - Server Discord (coming soon)
 
 ### Tutorial
@@ -286,8 +286,8 @@ Hai feedback sul supporto ricevuto?
 ## 🔗 Link Utili
 
 - [Documentazione](docs/)
-- [GitHub Issues](https://github.com/alisio85/shadowbound/issues)
-- [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions)
+- [GitHub Issues](https://github.com/Shadowboundgdr/Shadowboundgdr/issues)
+- [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions)
 - [Security Policy](SECURITY.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 

@@ -33,7 +33,7 @@ La Newsletter di Shadowbound è un bollettino mensile che:
 
 Per iscriverti alla newsletter:
 
-1. Vai su [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions)
+1. Vai su [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions)
 2. Cerca la discussione "Newsletter Signup"
 3. Commenta con il tuo username e email
 4. Conferma l'iscrizione via email
@@ -127,7 +127,7 @@ Le newsletter passate saranno archiviate in:
 
 Per accedere alle newsletter passate:
 
-1. Vai su [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions)
+1. Vai su [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions)
 2. Cerca la categoria "Newsletter"
 3. Trova la newsletter desiderata
 
