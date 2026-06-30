@@ -215,6 +215,7 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [ ] Eventi di gioco della community regolari
 - [ ] Configurazione GitHub Projects per gestione comunità
 - [ ] Attivazione GitHub Wiki per documentazione collaborativa
+- [ ] Logo professionale finale generato da designer o AI
 
 ---
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0D0D0D"/>
+  
+  <!-- Outer Circle -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#2D1B4E" stroke-width="4"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="250" cy="250" r="150" fill="none" stroke="#C0C0C0" stroke-width="2"/>
+  
+  <!-- Moon/Shadow Symbol -->
+  <path d="M250 100 A150 150 0 0 1 250 400 A100 100 0 0 0 250 100" fill="#2D1B4E"/>
+  
+  <!-- Sword -->
+  <line x1="250" y1="120" x2="250" y2="380" stroke="#C0C0C0" stroke-width="3"/>
+  <line x1="250" y1="380" x2="220" y2="400" stroke="#C0C0C0" stroke-width="3"/>
+  <line x1="250" y1="380" x2="280" y2="400" stroke="#C0C0C0" stroke-width="3"/>
+  
+  <!-- Stars -->
+  <circle cx="150" cy="150" r="3" fill="#C0C0C0"/>
+  <circle cx="350" cy="150" r="3" fill="#C0C0C0"/>
+  <circle cx="150" cy="350" r="3" fill="#C0C0C0"/>
+  <circle cx="350" cy="350" r="3" fill="#C0C0C0"/>
+  
+  <!-- Text -->
+  <text x="250" y="470" text-anchor="middle" font-family="Cinzel, serif" font-size="24" font-weight="bold" fill="#C0C0C0" letter-spacing="0.1em">SHADOWBOUND</text>
+</svg>
