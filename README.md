@@ -121,6 +121,11 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 - [Template Sessione di Gioco](docs/community/template-sessione-gioco.md) - Template per documentare sessioni
 - [Guida per Traduzioni](docs/community/guida-traduzioni.md) - Come tradurre Shadowbound
 - [Guida per DM della Community](docs/community/guida-dm-community.md) - Guida per Dungeon Master
+- [Sistema di Badge](docs/community/sistema-badge.md) - Sistema di riconoscimento per contributori
+- [Guida per Eventi](docs/community/guida-eventi.md) - Come organizzare eventi della community
+- [Guida per Newsletter](docs/community/guida-newsletter.md) - Newsletter mensile di Shadowbound
+- [Glossario Multilingua](docs/community/glossario.md) - Terminologia in 5 lingue
+- [Guida Generatore Personaggi](docs/community/guida-generatore-personaggi.md) - Guida per il generatore online
 
 ---
 
@@ -191,16 +196,21 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [x] Template per sessioni di gioco
 - [x] Sistema per traduzioni
 - [x] Guida per DM della community
+- [x] Sistema di badge per contributori
+- [x] Guida per eventi della community
+- [x] Guida per newsletter
+- [x] Glossario multilingua
+- [x] Guida per generatore di personaggi online
 
 ### Prossimi Passi 🚀
-- [ ] Generatore di personaggi online
-- [ ] App mobile per Shadowbound
-- [ ] Traduzioni in altre lingue (Inglese, Spagnolo, Francese)
+- [ ] Sviluppo generatore di personaggi online (React + Node.js)
+- [ ] App mobile per Shadowbound (React Native)
+- [ ] Traduzioni attive (Inglese, Spagnolo, Francese)
 - [ ] Piattaforma di traduzione collaborativa (Crowdin)
 - [ ] Server Discord ufficiale
-- [ ] Newsletter mensile
-- [ ] Sistema di badge per contributori
-- [ ] Eventi di gioco della community
+- [ ] Sistema di newsletter attivo
+- [ ] Sistema di badge implementato
+- [ ] Eventi di gioco della community regolari
 
 ---
 
