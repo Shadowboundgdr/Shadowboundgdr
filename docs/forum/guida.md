@@ -41,23 +41,21 @@ Puoi:
 
 ## 🎮 Per Giocatori
 
-- **Sessioni di Gioco**: Racconta le tue avventure e condividi momenti epici
-- **Domande e Aiuto**: Chiedi chiarimenti su regole, classi o abilità
-- **Strategie**: Discuti build, equipaggiamento e tattiche
-- **Creazioni**: Mostra i tuoi personaggi e le tue storie
+- **Generale** — Per discussioni generali, sessioni di gioco, strategie e storytelling
+- **Q&A** — Per domande e aiuto
+- **Idee** — Per proposte e suggerimenti
+- **Show and tell** — Per creazioni e condivisioni
 
 ## 🎲 Per Dungeon Master
 
-- **Sessioni di Gioco**: Chiedi consigli su come gestire situazioni complesse
-- **Storytelling**: Scambia idee per trame e colpi di scena
-- **Proposte**: Suggerisci nuovi mostri, tesori o meccaniche
-- **Domande**: Chiarimenti su regole avanzate e bilanciamento
+- **Generale** — Chiedi consigli su come gestire situazioni complesse e scambia idee narrative
+- **Idee** — Suggerisci nuovi mostri, tesori o meccaniche
+- **Q&A** — Chiarimenti su regole avanzate e bilanciamento
 
 ## 🛠️ Per Sviluppatori e Traduttori
 
-- **Proposte**: Suggerisci miglioramenti tecnici e funzionalità
-- **Creazioni**: Condividi strumenti e risorse che hai sviluppato
-- **Traduzioni**: Coordinati con altri traduttori
+- **Idee** — Suggerisci miglioramenti tecnici e funzionalità
+- **Show and tell** — Condividi strumenti e risorse che hai sviluppato
 
 ## 🏆 Badge e Riconoscimenti
 

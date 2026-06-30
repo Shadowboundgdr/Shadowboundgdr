@@ -45,12 +45,10 @@ I maintainer del progetto si riservano il diritto di:
 
 | Categoria | Descrizione |
 |-----------|-------------|
-| 🎮 Sessioni di Gioco | Condividi e discuti le tue sessioni |
-| 📝 Proposte e Suggerimenti | Proponi nuove idee per il regolamento |
-| 🤔 Domande e Aiuto | Chiedi chiarimenti e aiuto |
-| 🎨 Creazioni | Mostra le tue creazioni |
-| 📚 Strategie | Discuti tattiche e build |
-| 📖 Storytelling | Scambia idee narrative |
+| 🎮 Generale | Discussioni generali, sessioni, strategie e storytelling |
+| 📝 Idee e Suggerimenti | Proponi nuove idee per il regolamento |
+| 🤔 Domande e Risposte | Chiedi chiarimenti e aiuto |
+| 🎨 Show and Tell | Mostra le tue creazioni |
 
 ## 📚 Riferimenti
 
