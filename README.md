@@ -116,15 +116,36 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 - [Guida Rapida](docs/guida-rapida.md) - Guida per nuovi giocatori
 - [Personaggi Pre-generati](resources/personaggi-pregenerati/) - Schede pronte all'uso (livelli 1 e 5)
 
+### Community
+- [Guida per Condividere Avventure](docs/community/guida-condivisione-avventure.md) - Come condividere le tue avventure
+- [Template Sessione di Gioco](docs/community/template-sessione-gioco.md) - Template per documentare sessioni
+- [Guida per Traduzioni](docs/community/guida-traduzioni.md) - Come tradurre Shadowbound
+- [Guida per DM della Community](docs/community/guida-dm-community.md) - Guida per Dungeon Master
+
 ---
 
 ## 👥 Community
 
-Unisciti alla nostra community!
+Shadowbound è un progetto community-driven! Unisciti a noi per:
+
+- 🎮 **Condividere sessioni di gioco** - Racconta le tue avventure
+- 📝 **Proporre nuove idee** - Suggerisci miglioramenti al regolamento
+- 🤔 **Fare domande** - Chiedi aiuto su regole, ambientazione, o altro
+- 🎨 **Mostrare le tue creazioni** - Personaggi, avventure, artefatti
+- 🌍 **Tradurre il progetto** - Aiuta a rendere Shadowbound accessibile a tutti
+- 👨‍🏫 **Diventare DM** - Impara a narrare e condividi la tua esperienza
+
+### Canali Ufficiali
 
 - [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions) - Forum e discussioni
 - [GitHub Issues](https://github.com/alisio85/shadowbound/issues) - Bug report e richieste
 - [Discord](https://discord.gg/shadowbound) - Server Discord (coming soon)
+
+### Come Contribuire
+
+- Leggi [CONTRIBUTING.md](CONTRIBUTING.md) per sapere come contribuire
+- Segui il [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) per le regole della community
+- Usa i template per [Issues](.github/ISSUE_TEMPLATE/) e [Discussions](.github/DISCUSSION_TEMPLATE.md)
 
 ### Codice di Condotta
 
@@ -134,15 +155,12 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 
 ## 🎯 Roadmap
 
+### Sistema di Gioco ✅
 - [x] Struttura base del progetto
 - [x] Definizione nome e branding
 - [x] Creazione ambientazione dark fantasy
 - [x] Sistema di gioco completo
 - [x] Bestiario originale (25+ mostri, livelli 1-20)
-- [x] One-shot di playtest
-- [x] Seconda avventura (livelli 4-6)
-- [x] Terza avventura (livelli 7-10)
-- [x] Campagna completa (livelli 1-10)
 - [x] Sottoclassi per tutte le classi
 - [x] Artefatti magici
 - [x] Sistema di fazioni e reputazione
@@ -152,9 +170,37 @@ Tutti i partecipanti alla community devono aderire al nostro [CODE_OF_CONDUCT.md
 - [x] Razze e sottorazze
 - [x] Deità e domini
 - [x] Guida per giocatori avanzati
+
+### Avventure ✅
+- [x] One-shot di playtest
+- [x] Seconda avventura (livelli 4-6)
+- [x] Terza avventura (livelli 7-10)
+- [x] Campagna completa (livelli 1-10)
+
+### Risorse ✅
 - [x] Personaggi pre-generati (livelli 1 e 5)
+- [x] Guida rapida per nuovi giocatori
+- [x] Manuale del DM
+
+### Community ✅
+- [x] Template per GitHub Discussions
+- [x] Template per GitHub Issues
+- [x] Contributing guidelines
+- [x] Code of Conduct
+- [x] Guida per condividere avventure
+- [x] Template per sessioni di gioco
+- [x] Sistema per traduzioni
+- [x] Guida per DM della community
+
+### Prossimi Passi 🚀
 - [ ] Generatore di personaggi online
 - [ ] App mobile per Shadowbound
+- [ ] Traduzioni in altre lingue (Inglese, Spagnolo, Francese)
+- [ ] Piattaforma di traduzione collaborativa (Crowdin)
+- [ ] Server Discord ufficiale
+- [ ] Newsletter mensile
+- [ ] Sistema di badge per contributori
+- [ ] Eventi di gioco della community
 
 ---
 
