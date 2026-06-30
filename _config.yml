@@ -3,8 +3,8 @@
 title: Shadowbound
 description: Regolamento Dark Fantasy Open Source basato su D&D 5.2.1 SRD
 theme: minima
-url: https://alisio85.github.io/shadowbound
-baseurl: /shadowbound
+url: https://shadowboundgdr.github.io
+baseurl: /Shadowboundgdr
 
 # Plugins
 plugins:
