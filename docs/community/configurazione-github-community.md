@@ -13,6 +13,7 @@
 - [Configurare GitHub Actions](#configurare-github-actions)
 - [Configurare GitHub Pages](#configurare-github-pages)
 - [Configurare GitHub Sponsors](#configurare-github-sponsors)
+- [Configurare GitHub Sponsors](#configurare-github-sponsors)
 - [Configurare GitHub Teams](#configurare-github-teams)
 
 ---
@@ -34,7 +35,6 @@ Attiva le seguenti funzionalità:
 - **Projects**: Per gestione progetti
 - **Actions**: Per automazione
 - **Pages**: Per sito web
-- **Sponsors**: Per finanziamenti (se disponibile)
 
 ### 3. Salva le Modifiche
 
@@ -293,45 +293,16 @@ theme: minima
 
 ---
 
-## 💰 Configurare GitHub Sponsors
+## 💰 Nota su Finanziamenti
 
-### Attivare GitHub Sponsors
+Shadowbound è un progetto gratuito e open source. Non accettiamo donazioni o finanziamenti. Il progetto è mantenuto dalla community su base volontaria.
 
-1. Vai a "Settings" → "Sponsors"
-2. Clicca su "Enable GitHub Sponsors"
-3. Configura i livelli di sponsorizzazione
-
-### Livelli di Sponsorizzazione
-
-**Tier 1: Supporter** ($5/mese)
-- Nome nel sito
-- Badge "Supporter"
-
-**Tier 2: Contributor** ($20/mese)
-- Nome nel sito
-- Badge "Contributor"
-- Accesso a canali esclusivi
-
-**Tier 3: Champion** ($50/mese)
-- Nome nel sito
-- Badge "Champion"
-- Accesso a canali esclusivi
-- Voto su direzione del progetto
-
-**Tier 4: Legend** ($100/mese)
-- Nome nel sito
-- Badge "Legend"
-- Accesso a canali esclusivi
-- Voto su direzione del progetto
-- Consultazioni private
-
-### Ricompense per Sponsor
-
-- Badge speciali
-- Accesso a contenuti esclusivi
-- Voto su direzione del progetto
-- Consultazioni private
-- Riconoscimento nel README
+Se vuoi contribuire, puoi:
+- Contribuire al codice
+- Creare contenuti (avventure, NPC, mostri)
+- Tradurre il progetto
+- Aiutare la community nei forum
+- Diventare moderatore
 
 ---
 
@@ -458,7 +429,6 @@ Integra strumenti esterni:
 - [GitHub Wiki](https://docs.github.com/en/wiki)
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [GitHub Pages](https://docs.github.com/en/pages)
-- [GitHub Sponsors](https://docs.github.com/en/sponsors)
 
 ### Guide
 
