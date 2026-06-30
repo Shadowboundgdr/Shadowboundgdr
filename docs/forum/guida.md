@@ -52,11 +52,12 @@ th { background: #1a1a2e; color: white; }
 
 ## Come Aprire una Nuova Discussione
 
-1. Vai su [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new/choose)
-2. Scegli la **categoria** appropriata
-3. Scrivi un **titolo chiaro e descrittivo**
-4. Compila il **template** con tutti i dettagli
-5. **Pubblica!**
+1. Vai su [Nuova Discussione](https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new/choose)
+2. Scegli **"💬 Discussione Forum"** tra i template
+3. Seleziona la **sezione** appropriata dal menu
+4. Scrivi un **titolo chiaro e descrittivo**
+5. Compila il **template** con tutti i dettagli
+6. **Invia!** (la label verrà applicata automaticamente)
 
 ### Esempi di Titoli
 
@@ -74,20 +75,20 @@ th { background: #1a1a2e; color: white; }
 ## Per Ruolo
 
 ### 🎮 Giocatori
-- **Generale** — Sessioni di gioco, strategie e storytelling
-- **Q&A** — Domande e aiuto su regole e meccaniche
-- **Idee** — Proposte per nuove classi, abilità o oggetti
-- **Show and Tell** — Condividi i tuoi personaggi
+- **Sessioni di Gioco** — Racconta le tue sessioni
+- **Domande** — Chiarimenti su regole e meccaniche
+- **Proposte** — Nuove classi, abilità o oggetti
+- **Creazioni** — Condividi i tuoi personaggi
 
 ### 🎲 Dungeon Master
-- **Generale** — Consigli su situazioni di gioco e idee narrative
-- **Idee** — Nuovi mostri, tesori, meccaniche
-- **Q&A** — Chiarimenti su regole avanzate
+- **Strategie** — Consigli su situazioni di gioco
+- **Mostri e Nemici** — Nuove creature e incontri
+- **Storytelling** — Idee e tecniche narrative
 
 ### 🛠️ Sviluppatori
-- **Idee** — Miglioramenti tecnici e funzionalità
-- **Show and Tell** — Strumenti e risorse che hai creato
+- **Proposte** — Miglioramenti tecnici
+- **Collaborazioni** — Strumenti e risorse
 
 ---
 
-*Pronto a partecipare? [Apri una nuova discussione!](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new/choose)*
+*Pronto a partecipare? [Apri una nuova discussione!](https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new/choose)*

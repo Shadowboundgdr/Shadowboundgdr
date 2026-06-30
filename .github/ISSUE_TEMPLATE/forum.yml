@@ -1,0 +1,48 @@
+name: 💬 Discussione Forum
+description: Apri una nuova discussione nel forum di Shadowbound
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💬 Nuova Discussione
+
+        Benvenuto nel forum di Shadowbound! Compila i campi qui sotto.
+
+  - type: dropdown
+    attributes:
+      label: Sezione
+      description: Scegli la sezione più adatta per la tua discussione
+      options:
+        - 🎮 Sessioni di Gioco
+        - ⚔️ Classi e Abilità
+        - 🧙 Magia e Incantesimi
+        - 📚 Strategie e Tattiche
+        - 🐉 Mostri e Nemici
+        - 📝 Proposte e Suggerimenti
+        - 🤔 Domande e Aiuto
+        - 🎨 Creazioni della Community
+        - 🤝 Collaborazioni
+        - ❌ Segnalazioni
+        - 🏠 Nuovo Giocatore
+        - 📖 Storytelling e Narrazione
+        - 🗺️ Lore e Ambientazione
+        - 📜 Regolamento
+        - 🏆 Eventi e Annunci
+        - 💬 Off-Topic
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 📝 Il tuo messaggio
+      description: Scrivi qui il contenuto della tua discussione
+      placeholder: Racconta, chiedi, proponi...
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        💡 **Prima di pubblicare**: cerca se esiste già una discussione simile. Leggi il [regolamento](https://shadowboundgdr.github.io/Shadowboundgdr/forum/regolamento) e la [guida](https://shadowboundgdr.github.io/Shadowboundgdr/forum/guida).

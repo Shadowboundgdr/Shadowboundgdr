@@ -12,7 +12,7 @@ title: Forum
 .hero .stat-num { font-size: 1.4rem; font-weight: 700; }
 .hero .stat-label { font-size: 0.8rem; opacity: 0.7; }
 .forum-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.card { border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; transition: transform 0.15s, box-shadow 0.15s; background: white; }
+.card { border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; background: white; transition: transform 0.15s, box-shadow 0.15s; }
 .card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,0.1); }
 .card-h { padding: 1.2rem 1.2rem 0.5rem; }
 .card-h h3 { margin: 0; font-size: 1.1rem; color: #1a1a2e; }
@@ -35,18 +35,18 @@ title: Forum
 
 <div class="hero">
   <h2>💬 Forum di Shadowbound</h2>
-  <p>Benvenuto nella community! Partecipa alle discussioni su GitHub.</p>
-  <div class="badge">16 sezioni • Label italiane</div>
+  <p>Benvenuto nella community! Partecipa alle discussioni su GitHub Issues.</p>
+  <div class="badge">16 sezioni • Label italiane • 100% API</div>
   <div class="stats">
     <div class="stat"><div class="stat-num">16</div><div class="stat-label">Sezioni</div></div>
     <div class="stat"><div class="stat-num">Label</div><div class="stat-label">Organizzazione</div></div>
-    <div class="stat"><div class="stat-num">GitHub</div><div class="stat-label">Piattaforma</div></div>
+    <div class="stat"><div class="stat-num">Issues</div><div class="stat-label">Piattaforma</div></div>
   </div>
 </div>
 
 <div class="actions">
-  <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new/choose" class="act act-primary">✨ Nuova Discussione</a>
-  <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions" class="act act-dark">📢 Sfoglia il Forum</a>
+  <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new/choose" class="act act-primary">✨ Nuova Discussione</a>
+  <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen" class="act act-dark">📢 Sfoglia il Forum</a>
   <a href="regolamento" class="act act-outline">📜 Regolamento</a>
   <a href="guida" class="act act-outline">🎯 Guida</a>
 </div>
@@ -61,8 +61,8 @@ title: Forum
     <p>Racconta le tue sessioni, condividi storie epiche e consigli</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%8E%AE+Sessioni+di+Gioco" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%8E%AE+Sessioni+di+Gioco%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%8E%AE+Sessioni+di+Gioco&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%8E%AE+Sessioni+di+Gioco%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -72,8 +72,8 @@ title: Forum
     <p>Discuti classi, talenti, build dei personaggi</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%E2%9A%94%EF%B8%8F+Classi+e+Abilit%C3%A0" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%E2%9A%94%EF%B8%8F+Classi+e+Abilit%C3%A0%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%E2%9A%94%EF%B8%8F+Classi+e+Abilit%C3%A0&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%E2%9A%94%EF%B8%8F+Classi+e+Abilit%C3%A0%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -83,8 +83,8 @@ title: Forum
     <p>Parla del sistema magico, incantesimi, poteri arcani</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%A7%99+Magia+e+Incantesimi" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%A7%99+Magia+e+Incantesimi%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%A7%99+Magia+e+Incantesimi&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%A7%99+Magia+e+Incantesimi%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -94,8 +94,8 @@ title: Forum
     <p>Build, equipaggiamento, tattiche di combattimento</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%93%9A+Strategie" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%93%9A+Strategie%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%93%9A+Strategie&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%93%9A+Strategie%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -105,8 +105,8 @@ title: Forum
     <p>Bestiario, creazione nemici, bilanciamento incontri</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%90%89+Mostri+e+Nemici" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%90%89+Mostri+e+Nemici%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%90%89+Mostri+e+Nemici&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%90%89+Mostri+e+Nemici%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -122,8 +122,8 @@ title: Forum
     <p>Proponi nuove regole, meccaniche o miglioramenti</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%93%9D+Proposte" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%93%9D+Proposte%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%93%9D+Proposte&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%93%9D+Proposte%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -133,8 +133,8 @@ title: Forum
     <p>Chiedi chiarimenti sul regolamento o meccaniche di gioco</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%A4%94+Domande" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%A4%94+Domande%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%A4%94+Domande&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%A4%94+Domande%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -144,8 +144,8 @@ title: Forum
     <p>Mostra personaggi, avventure, mappe, artefatti originali</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%8E%A8+Creazioni" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%8E%A8+Creazioni%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%8E%A8+Creazioni&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%8E%A8+Creazioni%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -155,8 +155,8 @@ title: Forum
     <p>Cerca o offri aiuto su progetti, traduzioni, grafica</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%A4%9D+Collaborazioni" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%A4%9D+Collaborazioni%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%A4%9D+Collaborazioni&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%A4%9D+Collaborazioni%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -166,8 +166,8 @@ title: Forum
     <p>Segnala bug, problemi tecnici o violazioni delle regole</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%E2%9D%8C+Segnalazioni" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%E2%9D%8C+Segnalazioni%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%E2%9D%8C+Segnalazioni&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%E2%9D%8C+Segnalazioni%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -177,8 +177,8 @@ title: Forum
     <p>Presentati, chiedi informazioni per iniziare a giocare</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%8F%A0+Nuovo+Giocatore" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%8F%A0+Nuovo+Giocatore%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%8F%A0+Nuovo+Giocatore&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%8F%A0+Nuovo+Giocatore%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -194,8 +194,8 @@ title: Forum
     <p>Scambia idee su trame, personaggi, tecniche narrative</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%93%96+Storytelling" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%93%96+Storytelling%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%93%96+Storytelling&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%93%96+Storytelling%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -205,8 +205,8 @@ title: Forum
     <p>Approfondisci il mondo, la storia, le fazioni e i luoghi</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%97%BA%EF%B8%8F+Lore+e+Ambientazione" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%97%BA%EF%B8%8F+Lore+e+Ambientazione%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%97%BA%EF%B8%8F+Lore+e+Ambientazione&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%97%BA%EF%B8%8F+Lore+e+Ambientazione%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -216,8 +216,8 @@ title: Forum
     <p>Discussioni sulle regole, chiarimenti e proposte di modifica</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%93%9C+Regolamento" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%93%9C+Regolamento%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%93%9C+Regolamento&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%93%9C+Regolamento%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -233,8 +233,8 @@ title: Forum
     <p>Eventi organizzati, tornei, sessioni speciali e annunci ufficiali</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%8F%86+Eventi+e+Annunci" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%8F%86+Eventi+e+Annunci%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%8F%86+Eventi+e+Annunci&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%8F%86+Eventi+e+Annunci%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -244,8 +244,8 @@ title: Forum
     <p>Chiacchiere libere, giochi, sondaggi e tutto ciò che non rientra altrove</p>
   </div>
   <div class="card-f">
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new?category=general&labels=%F0%9F%92%AC+Off-Topic" class="btn btn-primary">Nuova →</a>
-    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/discussions?discussions_q=label%3A%22%F0%9F%92%AC+Off-Topic%22" class="btn btn-label">Sfoglia</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues/new?labels=%F0%9F%92%AC+Off-Topic&template=forum.yml" class="btn btn-primary">Nuova →</a>
+    <a href="https://github.com/Shadowboundgdr/Shadowboundgdr/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%92%AC+Off-Topic%22" class="btn btn-label">Sfoglia</a>
   </div>
 </div>
 
@@ -253,5 +253,5 @@ title: Forum
 
 <hr>
 <p style="text-align:center;color:#666;font-size:0.85rem;">
-  💡 Usa le label per filtrare le discussioni • <a href="regolamento">Regolamento</a> • <a href="guida">Guida</a> • <a href="../admin">Admin Panel</a>
+  💡 Usa le label per filtrare • <a href="regolamento">Regolamento</a> • <a href="guida">Guida</a> • <a href="../admin">Admin Panel</a>
 </p>
