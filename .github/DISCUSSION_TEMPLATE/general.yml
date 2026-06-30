@@ -1,0 +1,22 @@
+title: "🎮 "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎮 Discussione Generale
+
+        Usa questa categoria per sessioni di gioco, strategie, storytelling e discussioni generali su Shadowbound.
+
+  - type: textarea
+    attributes:
+      label: "💬 Il tuo messaggio"
+      description: "Scrivi qui il contenuto della tua discussione."
+      placeholder: "Racconta la tua sessione, condividi una strategia, o avvia una discussione..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        💡 **Ricorda**: Sii rispettoso e costruttivo! Leggi il [regolamento](https://shadowboundgdr.github.io/Shadowboundgdr/forum/regolamento) prima di partecipare.

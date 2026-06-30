@@ -1,0 +1,36 @@
+title: "🤔 "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤔 Domanda o Richiesta di Aiuto
+
+        Hai un dubbio sul regolamento, una meccanica di gioco o vuoi un chiarimento? Siamo qui per aiutarti!
+
+  - type: textarea
+    attributes:
+      label: "❓ La tua domanda"
+      description: "Spiega chiaramente cosa ti serve sapere."
+      placeholder: "Qual è il tuo dubbio?"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "📖 Contesto"
+      description: "Fornisci più contesto possibile (riferimenti a pagine del regolamento, situazione di gioco, ecc.)."
+      placeholder: "In che situazione ti trovi? A quali regole ti riferisci?"
+
+  - type: dropdown
+    attributes:
+      label: "Categoria"
+      description: "Di cosa tratta la tua domanda?"
+      options:
+        - Regole di base
+        - Classi e abilità
+        - Combattimento
+        - Ambientazione
+        - Creazione personaggio
+        - Equipaggiamento
+        - Magia
+        - Altro

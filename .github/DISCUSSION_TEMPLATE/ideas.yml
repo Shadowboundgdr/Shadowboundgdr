@@ -1,0 +1,30 @@
+title: "📝 "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📝 Proposta o Suggerimento
+
+        Hai un'idea per migliorare Shadowbound? Proponi nuove regole, classi, mostri, avventure o qualsiasi altra cosa!
+
+  - type: textarea
+    attributes:
+      label: "🎯 La tua proposta"
+      description: "Descrivi la tua idea nel dettaglio."
+      placeholder: "Cosa vorresti aggiungere o cambiare?"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "❓ Perché è utile?"
+      description: "Spiega perché questa idea migliorerebbe Shadowbound."
+      placeholder: "Quale problema risolve? Cosa aggiunge al gioco?"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "📋 Dettagli aggiuntivi"
+      description: "Esempi, casi d'uso, riferimenti ad altre sezioni del regolamento."
+      placeholder: "Opzionale: aggiungi dettagli per chiarire la tua proposta."

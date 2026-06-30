@@ -1,42 +1,77 @@
 ---
 layout: page
-title: Regolamento del Forum
+title: Regolamento
 ---
 
-# 📜 Regolamento del Forum
+<style>
+.rules-hero { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; padding: 2rem; border-radius: 12px; margin: 1.5rem 0; text-align: center; }
+.rules-hero h2 { color: white; border: none; margin: 0; font-size: 1.8rem; }
+.rule-block { border-left: 4px solid #e94560; padding: 1rem 1.2rem; margin: 1rem 0; background: #f8f9fa; border-radius: 0 8px 8px 0; }
+.rule-block h3 { margin: 0 0 0.3rem; color: #1a1a2e; }
+.rule-block p { margin: 0; color: #555; }
+.badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
+.badge-green { background: #d4edda; color: #155724; }
+.badge-red { background: #f8d7da; color: #721c24; }
+.badge-blue { background: #cce5ff; color: #004085; }
+</style>
 
-Benvenuto nel forum di Shadowbound! Manteniamo un ambiente sano, rispettoso e costruttivo.
+<div class="rules-hero">
+  <h2>📜 Regolamento del Forum</h2>
+  <p>Manteniamo un ambiente sano, rispettoso e costruttivo per tutta la community</p>
+</div>
 
 ## Principi Fondamentali
 
-1. **Rispetto reciproco** — Niente insulti, discriminazioni o molestie
-2. **Costruttività** — Critiche costruttive sì, trollaggio no
-3. **Trasparenza** — Dichiara conflitti di interesse
-4. **Pazienza** — Aspetta almeno 48 ore prima di sollecitare
+<div class="rule-block">
+  <h3><span class="badge badge-green">★</span> Rispetto reciproco</h3>
+  <p>Tratta tutti con cortesia e dignità. Non sono tollerati insulti, discriminazioni o molestie.</p>
+</div>
+
+<div class="rule-block">
+  <h3><span class="badge badge-green">★</span> Costruttività</h3>
+  <p>Contribuisci in modo utile. Critiche costruttive e feedback dettagliati sono benvenuti.</p>
+</div>
+
+<div class="rule-block">
+  <h3><span class="badge badge-green">★</span> Trasparenza</h3>
+  <p>Se sei un maintainer o hai conflitti di interesse, dichiaralo apertamente.</p>
+</div>
+
+<div class="rule-block">
+  <h3><span class="badge badge-green">★</span> Pazienza</h3>
+  <p>Non tutti rispondono immediatamente. Aspetta almeno 48 ore prima di sollecitare.</p>
+</div>
 
 ## Cosa Non Fare
 
-- **Spam** — Nessuna auto-promozione eccessiva
-- **Copyright** — Non condividere materiale protetto senza autorizzazione
-- **Doppie discussioni** — Cerca prima di aprire una nuova discussione
-- **Flame war** — Discussioni accese sì, attacchi personali no
+<div class="rule-block">
+  <h3><span class="badge badge-red">✕</span> Spam</h3>
+  <p>Nessuna auto-promozione eccessiva o contenuti irrilevanti.</p>
+</div>
+
+<div class="rule-block">
+  <h3><span class="badge badge-red">✕</span> Copyright</h3>
+  <p>Non condividere materiale protetto da copyright senza autorizzazione.</p>
+</div>
+
+<div class="rule-block">
+  <h3><span class="badge badge-red">✕</span> Doppie discussioni</h3>
+  <p>Cerca prima di aprire una nuova discussione: il tuo argomento potrebbe esistere già.</p>
+</div>
+
+<div class="rule-block">
+  <h3><span class="badge badge-red">✕</span> Flame war</h3>
+  <p>Discussioni accese sì, attacchi personali no.</p>
+</div>
 
 ## Moderazione
 
-I maintainer possono:
-- Spostare discussioni nella categoria corretta
-- Chiudere discussioni duplicate o fuori tema
-- Eliminare commenti offensivi
-- Sospendere utenti che violano le regole
+I maintainer del progetto si riservano il diritto di:
 
-## Categorie
-
-| Categoria | Descrizione |
-|-----------|-------------|
-| 🎮 Generale | Sessioni, strategie, storytelling |
-| 📝 Idee | Proposte e suggerimenti |
-| 🤔 Q&A | Domande e aiuto |
-| 🎨 Show and Tell | Creazioni della community |
+- **Spostare** discussioni nella categoria appropriata
+- **Chiudere** discussioni duplicate o fuori tema
+- **Eliminare** commenti offensivi o inappropriati
+- **Sospendere** utenti che violano ripetutamente le regole
 
 ## Riferimenti
 
@@ -45,4 +80,4 @@ I maintainer possono:
 
 ---
 
-*Ultimo aggiornamento: Giugno 2026*
+<small>Ultimo aggiornamento: Giugno 2026</small>

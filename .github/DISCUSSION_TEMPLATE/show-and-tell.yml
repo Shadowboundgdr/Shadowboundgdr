@@ -1,0 +1,30 @@
+title: "🎨 "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎨 Show and Tell
+
+        Condividi le tue creazioni con la community! Personaggi, avventure, mappe, artefatti o qualsiasi altra cosa hai creato per Shadowbound.
+
+  - type: textarea
+    attributes:
+      label: "🖼️ La tua creazione"
+      description: "Mostra cosa hai creato! Puoi includere link a immagini, file o documenti."
+      placeholder: "Descrivi la tua creazione e includi link a immagini o file."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "📝 Descrizione"
+      description: "Racconci di cosa si tratta e come funziona."
+      placeholder: "A cosa serve? Come si usa? Cosa lo rende speciale?"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "💬 Feedback"
+      description: "Cosa vorresti dalla community? Consigli, opinioni, suggerimenti?"
+      placeholder: "Che tipo di feedback cerchi?"
