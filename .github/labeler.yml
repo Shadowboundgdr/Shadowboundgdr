@@ -1,0 +1,61 @@
+# Configuration for GitHub Actions labeler
+# See: https://github.com/actions/labeler
+
+# Labels for issues
+bug:
+  - "**/*bug*"
+  - "**/*fix*"
+  - "**/*error*"
+
+enhancement:
+  - "**/*feature*"
+  - "**/*enhancement*"
+  - "**/*improvement*"
+
+documentation:
+  - "**/*doc*"
+  - "**/*readme*"
+  - "**/*guide*"
+
+content:
+  - "**/*adventure*"
+  - "**/*npc*"
+  - "**/*monster*"
+  - "**/*item*"
+
+translation:
+  - "**/*translation*"
+  - "**/*translate*"
+  - "**/*lang*"
+
+community:
+  - "**/*event*"
+  - "**/*badge*"
+  - "**/*newsletter*"
+
+question:
+  - "**/*question*"
+  - "**/*help*"
+  - "**/*support*"
+
+# Labels for pull requests
+pr-bug:
+  - "**/*bug*"
+  - "**/*fix*"
+
+pr-feature:
+  - "**/*feature*"
+  - "**/*enhancement*"
+
+pr-docs:
+  - "**/*doc*"
+  - "**/*readme*"
+
+pr-content:
+  - "**/*adventure*"
+  - "**/*npc*"
+  - "**/*monster*"
+
+pr-translation:
+  - "**/*translation*"
+  - "**/*translate*"

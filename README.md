@@ -126,6 +126,7 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per dettagli completi.
 - [Guida per Newsletter](docs/community/guida-newsletter.md) - Newsletter mensile di Shadowbound
 - [Glossario Multilingua](docs/community/glossario.md) - Terminologia in 5 lingue
 - [Guida Generatore Personaggi](docs/community/guida-generatore-personaggi.md) - Guida per il generatore online
+- [Configurazione GitHub Community](docs/community/configurazione-github-community.md) - Guida per configurare GitHub
 
 ---
 
@@ -151,6 +152,7 @@ Shadowbound è un progetto community-driven! Unisciti a noi per:
 - Leggi [CONTRIBUTING.md](CONTRIBUTING.md) per sapere come contribuire
 - Segui il [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) per le regole della community
 - Usa i template per [Issues](.github/ISSUE_TEMPLATE/) e [Discussions](.github/DISCUSSION_TEMPLATE.md)
+- Configura GitHub seguendo la [Guida per Configurazione GitHub Community](docs/community/configurazione-github-community.md)
 
 ### Codice di Condotta
 

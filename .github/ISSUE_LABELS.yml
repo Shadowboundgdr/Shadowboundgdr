@@ -1,0 +1,151 @@
+# Issue Labels for Shadowbound
+
+# Bug Labels
+- name: 🐛 bug
+  color: d73a4a
+  description: Something isn't working
+
+- name: 🐛 bug: confirmed
+  color: b60205
+  description: Bug confirmed by maintainers
+
+- name: 🐛 bug: needs investigation
+  color: fbca04
+  description: Bug needs more investigation
+
+# Feature Labels
+- name: ✨ enhancement
+  color: a2eeef
+  description: New feature or request
+
+- name: ✨ feature: requested
+  color: 7057ff
+  description: Feature requested by community
+
+- name: ✨ feature: in progress
+  color: 0066ff
+  description: Feature currently being developed
+
+# Documentation Labels
+- name: 📝 documentation
+  color: 0075ca
+  description: Improvements or additions to documentation
+
+- name: 📝 docs: needed
+  color: d4c5f9
+  description: Documentation needed
+
+# Content Labels
+- name: 🎮 content
+  color: 5319e7
+  description: New content (adventure, NPC, monster, etc.)
+
+- name: 🎮 content: adventure
+  color: 1d76db
+  description: New adventure
+
+- name: 🎮 content: npc
+  color: 0e8a16
+  description: New NPC
+
+- name: 🎮 content: monster
+  color: 89cff0
+  description: New monster
+
+# Translation Labels
+- name: 🌍 translation
+  color: 0e8a16
+  description: Translation related
+
+- name: 🌍 translation: english
+  color: bfd4f2
+  description: English translation
+
+- name: 🌍 translation: spanish
+  color: bfd4f2
+  description: Spanish translation
+
+- name: 🌍 translation: french
+  color: bfd4f2
+  description: French translation
+
+- name: 🌍 translation: german
+  color: bfd4f2
+  description: German translation
+
+# Community Labels
+- name: 👥 community
+  color: 0066ff
+  description: Community related
+
+- name: 👥 event
+  color: 5319e7
+  description: Event related
+
+- name: 👥 badge
+  color: fbca04
+  description: Badge related
+
+- name: 👥 newsletter
+  color: 0075ca
+  description: Newsletter related
+
+# Priority Labels
+- name: 🔥 priority: high
+  color: b60205
+  description: High priority
+
+- name: ⚡ priority: medium
+  color: fbca04
+  description: Medium priority
+
+- name: 📌 priority: low
+  color: 7057ff
+  description: Low priority
+
+# Status Labels
+- name: 🚧 status: in progress
+  color: fbca04
+  description: Currently being worked on
+
+- name: ✅ status: ready for review
+  color: 0e8a16
+  description: Ready for review
+
+- name: ❌ status: blocked
+  color: d73a4a
+  description: Blocked by something
+
+- name: ℹ️ status: needs info
+  color: 7057ff
+  description: Needs more information
+
+- name: 🎉 status: completed
+  color: 0e8a16
+  description: Completed
+
+# Help Labels
+- name: ❓ question
+  color: 7057ff
+  description: Question
+
+- name: ❓ help wanted
+  color: 008672
+  description: Help wanted
+
+- name: ❓ good first issue
+  color: 7057ff
+  description: Good for newcomers
+
+# Special Labels
+- name: 📌 pinned
+  color: fbca04
+  description: Pinned issue
+
+- name: 🔒 security
+  color: d73a4a
+  description: Security issue
+
+- name: 🎯 milestone
+  color: 5319e7
+  description: Milestone related

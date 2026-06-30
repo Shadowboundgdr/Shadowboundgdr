@@ -1,0 +1,32 @@
+name: Welcome New Contributors
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome new contributor
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue_number = context.issue.number;
+            const user = context.actor;
+            
+            // Check if this is a first-time contributor
+            const response = await github.rest.repos.listCommits({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              author: user
+            });
+            
+            if (response.data.length === 1) {
+              await github.rest.issues.createComment({
+                issue_number: issue_number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `Grazie per il tuo primo contributo a Shadowbound, @${user}! 🎉\n\nUn maintainer revisionerà la tua PR a breve. Nel frattempo, sentiti libero di:\n- 📝 Leggere la [guida per contributori](https://github.com/alisio85/shadowbound/blob/main/CONTRIBUTING.md)\n- 🎮 Esplorare le [risorse della community](https://github.com/alisio85/shadowbound#community)\n- 💬 Unirti alle [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions)\n\nAncora una volta, benvenuto nella community di Shadowbound! 🌟`
+              });
+            }
+          github-token: ${{ secrets.GITHUB_TOKEN }}

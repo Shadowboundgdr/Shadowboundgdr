@@ -1,0 +1,19 @@
+name: Close Stale Issues and PRs
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close stale issues
+        uses: actions/stale@v8
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: 'Questa issue è inattiva da 30 giorni. Se è ancora rilevante, per favore commenta per riattivarla.'
+          stale-pr-message: 'Questa PR è inattiva da 30 giorni. Se è ancora rilevante, per favore commenta per riattivarla.'
+          days-before-stale: 30
+          days-before-close: 7
+          exempt-issue-labels: 'pinned,security,help wanted'
+          exempt-pr-labels: 'pinned,security,help wanted'
