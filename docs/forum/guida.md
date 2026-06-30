@@ -25,7 +25,7 @@ Puoi:
 
 ## ✍️ Come Aprire una Nuova Discussione
 
-1. Vai su [GitHub Discussions](https://github.com/alisio85/shadowbound/discussions/new/choose)
+1. Vai su [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new/choose)
 2. Scegli la categoria appropriata
 3. Scrivi un titolo chiaro e descrittivo
 4. Compila il template con tutti i dettagli necessari
@@ -84,4 +84,4 @@ Il forum è principalmente in italiano, ma sono benvenuti contributi in inglese 
 
 ---
 
-*Pronto a partecipare? [Apri una nuova discussione!](https://github.com/alisio85/shadowbound/discussions/new/choose)*
+*Pronto a partecipare? [Apri una nuova discussione!](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new/choose)*
