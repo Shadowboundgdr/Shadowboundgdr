@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Shadowbound GDR
+title: Home
 ---
 
 # Shadowbound GDR
@@ -9,7 +9,8 @@ title: Shadowbound GDR
 
 ## 💬 Forum
 
-- [GitHub Discussions](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions) — Partecipa alla community
+- [Forum della community](forum/) — Partecipa alle discussioni
+- [Apri una discussione](https://github.com/Shadowboundgdr/Shadowboundgdr/discussions/new/choose)
 
 ## 📚 Manuali
 

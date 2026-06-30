@@ -20,3 +20,8 @@ kramdown:
 # Social media
 twitter_username: shadowbound_ttrpg
 github_username: alisio85
+
+# Navigation
+header_pages:
+  - index.md
+  - forum/index.md
